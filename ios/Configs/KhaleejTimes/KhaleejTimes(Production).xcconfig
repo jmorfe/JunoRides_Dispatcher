@@ -1,0 +1,9 @@
+#include "Pods/Target Support Files/Pods-available_pods-Emart/Pods-available_pods-Emart.release.xcconfig"
+
+
+PROJECT_BUNDLE_ID = com.khaleejTimes.royodispatcher
+PROJECT_APP_VERSION = 1.2
+PROJECT_BUILD_NUMBER = 1
+PROJECT_APP_NAME =KhaleejTimes driver
+PROJECT_PLIST =KhaleejInfo
+PROJECT_ENTITLEMENT=RoyoDriverAppRelease

@@ -1,0 +1,9 @@
+#include "Pods/Target Support Files/Pods-available_pods-Grub/Pods-available_pods-Grub.debug.xcconfig"
+
+PROJECT_BUNDLE_ID = com.Grub.Dispatch
+PROJECT_APP_VERSION = 1.0
+PROJECT_BUILD_NUMBER =32
+PROJECT_APP_NAME =Grub Dispatch
+PROJECT_PLIST =GrubInfo
+PROJECT_ENTITLEMENT=RoyoDriverAppRelease
+CODE_PUSH_KEY = YuO2y4Ot8ynOlbl6Ez8tyUF18hB2AOYUEZ2bX

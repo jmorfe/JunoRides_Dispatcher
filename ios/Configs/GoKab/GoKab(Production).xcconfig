@@ -1,0 +1,9 @@
+#include "Pods/Target Support Files/Pods-available_pods-GoKab/Pods-available_pods-GoKab.release.xcconfig"
+
+PROJECT_BUNDLE_ID = com.GoKab.Dispatch
+PROJECT_APP_VERSION = 1.1
+PROJECT_BUILD_NUMBER = 4
+PROJECT_APP_NAME =GoKab Dispatch
+PROJECT_PLIST =GoKabInfo
+PROJECT_ENTITLEMENT=RoyoDriverAppRelease
+CODE_PUSH_KEY = eKQEdF9lm2rrvhC-hsnIigX9HcBDr97JsRZon

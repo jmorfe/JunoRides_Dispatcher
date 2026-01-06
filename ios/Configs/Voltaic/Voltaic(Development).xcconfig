@@ -1,0 +1,13 @@
+#include "Pods/Target Support Files/Pods-available_pods-Voltaic/Pods-available_pods-Voltaic.debug.xcconfig"
+
+
+PROJECT_BUNDLE_ID = com.Voltaic.Dispatch
+PROJECT_APP_VERSION = 1.0
+PROJECT_BUILD_NUMBER = 17
+PROJECT_APP_NAME =Voltaic Dispatch
+PROJECT_PLIST =VoltaicInfo
+PROJECT_ENTITLEMENT=RoyoDriverAppRelease
+CODE_PUSH_KEY = M-bhwDfbKVBaoX2zqnWdcY3RyKz3cN5JRFo_2
+
+
+

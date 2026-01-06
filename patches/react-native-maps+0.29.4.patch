@@ -1,0 +1,1920 @@
+diff --git a/node_modules/react-native-maps/lib/android/build/.transforms/321ae598b8f464d85a7d9d9988d8d7cb/results.bin b/node_modules/react-native-maps/lib/android/build/.transforms/321ae598b8f464d85a7d9d9988d8d7cb/results.bin
+new file mode 100644
+index 0000000..0d259dd
+--- /dev/null
++++ b/node_modules/react-native-maps/lib/android/build/.transforms/321ae598b8f464d85a7d9d9988d8d7cb/results.bin
+@@ -0,0 +1 @@
++o/classes
+diff --git a/node_modules/react-native-maps/lib/android/build/.transforms/321ae598b8f464d85a7d9d9988d8d7cb/transformed/classes/classes_dex/classes.dex b/node_modules/react-native-maps/lib/android/build/.transforms/321ae598b8f464d85a7d9d9988d8d7cb/transformed/classes/classes_dex/classes.dex
+new file mode 100644
+index 0000000..dd42a83
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/.transforms/321ae598b8f464d85a7d9d9988d8d7cb/transformed/classes/classes_dex/classes.dex differ
+diff --git a/node_modules/react-native-maps/lib/android/build/generated/source/buildConfig/debug/com/airbnb/android/react/maps/BuildConfig.java b/node_modules/react-native-maps/lib/android/build/generated/source/buildConfig/debug/com/airbnb/android/react/maps/BuildConfig.java
+new file mode 100644
+index 0000000..53e11cf
+--- /dev/null
++++ b/node_modules/react-native-maps/lib/android/build/generated/source/buildConfig/debug/com/airbnb/android/react/maps/BuildConfig.java
+@@ -0,0 +1,10 @@
++/**
++ * Automatically generated file. DO NOT MODIFY
++ */
++package com.airbnb.android.react.maps;
++
++public final class BuildConfig {
++  public static final boolean DEBUG = Boolean.parseBoolean("true");
++  public static final String LIBRARY_PACKAGE_NAME = "com.airbnb.android.react.maps";
++  public static final String BUILD_TYPE = "debug";
++}
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml b/node_modules/react-native-maps/lib/android/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml
+new file mode 100644
+index 0000000..3eec4a4
+--- /dev/null
++++ b/node_modules/react-native-maps/lib/android/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml
+@@ -0,0 +1,10 @@
++<?xml version="1.0" encoding="utf-8"?>
++<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    package="com.airbnb.android.react.maps" >
++
++    <uses-sdk android:minSdkVersion="23" />
++
++    <uses-permission android:name="android.permission.INTERNET" />
++    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
++
++</manifest>
+\ No newline at end of file
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json b/node_modules/react-native-maps/lib/android/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json
+new file mode 100644
+index 0000000..b048ca1
+--- /dev/null
++++ b/node_modules/react-native-maps/lib/android/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json
+@@ -0,0 +1,18 @@
++{
++  "version": 3,
++  "artifactType": {
++    "type": "AAPT_FRIENDLY_MERGED_MANIFESTS",
++    "kind": "Directory"
++  },
++  "applicationId": "com.airbnb.android.react.maps",
++  "variantName": "debug",
++  "elements": [
++    {
++      "type": "SINGLE",
++      "filters": [],
++      "attributes": [],
++      "outputFile": "AndroidManifest.xml"
++    }
++  ],
++  "elementType": "File"
++}
+\ No newline at end of file
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/aar_metadata/debug/aar-metadata.properties b/node_modules/react-native-maps/lib/android/build/intermediates/aar_metadata/debug/aar-metadata.properties
+new file mode 100644
+index 0000000..1211b1e
+--- /dev/null
++++ b/node_modules/react-native-maps/lib/android/build/intermediates/aar_metadata/debug/aar-metadata.properties
+@@ -0,0 +1,6 @@
++aarFormatVersion=1.0
++aarMetadataVersion=1.0
++minCompileSdk=1
++minCompileSdkExtension=0
++minAndroidGradlePluginVersion=1.0.0
++coreLibraryDesugaringEnabled=false
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/annotation_processor_list/debug/annotationProcessors.json b/node_modules/react-native-maps/lib/android/build/intermediates/annotation_processor_list/debug/annotationProcessors.json
+new file mode 100644
+index 0000000..9e26dfe
+--- /dev/null
++++ b/node_modules/react-native-maps/lib/android/build/intermediates/annotation_processor_list/debug/annotationProcessors.json
+@@ -0,0 +1 @@
++{}
+\ No newline at end of file
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/compile_library_classes_jar/debug/classes.jar b/node_modules/react-native-maps/lib/android/build/intermediates/compile_library_classes_jar/debug/classes.jar
+new file mode 100644
+index 0000000..a62527c
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/compile_library_classes_jar/debug/classes.jar differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/compile_r_class_jar/debug/R.jar b/node_modules/react-native-maps/lib/android/build/intermediates/compile_r_class_jar/debug/R.jar
+new file mode 100644
+index 0000000..1036596
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/compile_r_class_jar/debug/R.jar differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/compile_symbol_list/debug/R.txt b/node_modules/react-native-maps/lib/android/build/intermediates/compile_symbol_list/debug/R.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties b/node_modules/react-native-maps/lib/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties
+new file mode 100644
+index 0000000..75db04f
+--- /dev/null
++++ b/node_modules/react-native-maps/lib/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties
+@@ -0,0 +1 @@
++#Fri May 10 16:51:54 IST 2024
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml b/node_modules/react-native-maps/lib/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml
+new file mode 100644
+index 0000000..a7c4701
+--- /dev/null
++++ b/node_modules/react-native-maps/lib/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/yashchouhan/Desktop/codebrew/RoyoDispatch-ReactNative/node_modules/react-native-maps/lib/android/src/main/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/yashchouhan/Desktop/codebrew/RoyoDispatch-ReactNative/node_modules/react-native-maps/lib/android/src/main/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/yashchouhan/Desktop/codebrew/RoyoDispatch-ReactNative/node_modules/react-native-maps/lib/android/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/yashchouhan/Desktop/codebrew/RoyoDispatch-ReactNative/node_modules/react-native-maps/lib/android/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/yashchouhan/Desktop/codebrew/RoyoDispatch-ReactNative/node_modules/react-native-maps/lib/android/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/yashchouhan/Desktop/codebrew/RoyoDispatch-ReactNative/node_modules/react-native-maps/lib/android/build/generated/res/resValues/debug"/></dataSet><mergedItems/></merger>
+\ No newline at end of file
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml b/node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml
+new file mode 100644
+index 0000000..c1bd601
+--- /dev/null
++++ b/node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/yashchouhan/Desktop/codebrew/RoyoDispatch-ReactNative/node_modules/react-native-maps/lib/android/src/main/jniLibs"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/yashchouhan/Desktop/codebrew/RoyoDispatch-ReactNative/node_modules/react-native-maps/lib/android/src/debug/jniLibs"/></dataSet></merger>
+\ No newline at end of file
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugShaders/merger.xml b/node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugShaders/merger.xml
+new file mode 100644
+index 0000000..929a60a
+--- /dev/null
++++ b/node_modules/react-native-maps/lib/android/build/intermediates/incremental/mergeDebugShaders/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/yashchouhan/Desktop/codebrew/RoyoDispatch-ReactNative/node_modules/react-native-maps/lib/android/src/main/shaders"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/yashchouhan/Desktop/codebrew/RoyoDispatch-ReactNative/node_modules/react-native-maps/lib/android/src/debug/shaders"/></dataSet></merger>
+\ No newline at end of file
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/incremental/packageDebugAssets/merger.xml b/node_modules/react-native-maps/lib/android/build/intermediates/incremental/packageDebugAssets/merger.xml
+new file mode 100644
+index 0000000..770aaf9
+--- /dev/null
++++ b/node_modules/react-native-maps/lib/android/build/intermediates/incremental/packageDebugAssets/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/yashchouhan/Desktop/codebrew/RoyoDispatch-ReactNative/node_modules/react-native-maps/lib/android/src/main/assets"><file name="ula.kml" path="/Users/yashchouhan/Desktop/codebrew/RoyoDispatch-ReactNative/node_modules/react-native-maps/lib/android/src/main/assets/ula.kml"/></source></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/yashchouhan/Desktop/codebrew/RoyoDispatch-ReactNative/node_modules/react-native-maps/lib/android/src/debug/assets"/></dataSet><dataSet config="generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/yashchouhan/Desktop/codebrew/RoyoDispatch-ReactNative/node_modules/react-native-maps/lib/android/build/intermediates/shader_assets/debug/out"/></dataSet></merger>
+\ No newline at end of file
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapCallout.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapCallout.class
+new file mode 100644
+index 0000000..b90d7ac
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapCallout.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapCalloutManager.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapCalloutManager.class
+new file mode 100644
+index 0000000..ca15d16
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapCalloutManager.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapCircle.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapCircle.class
+new file mode 100644
+index 0000000..336666a
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapCircle.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapCircleManager.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapCircleManager.class
+new file mode 100644
+index 0000000..c94cb55
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapCircleManager.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapFeature.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapFeature.class
+new file mode 100644
+index 0000000..c6a7d6c
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapFeature.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapGradientPolyline$AirMapGradientPolylineProvider.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapGradientPolyline$AirMapGradientPolylineProvider.class
+new file mode 100644
+index 0000000..cf72d5a
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapGradientPolyline$AirMapGradientPolylineProvider.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapGradientPolyline$MutPoint.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapGradientPolyline$MutPoint.class
+new file mode 100644
+index 0000000..f5f2909
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapGradientPolyline$MutPoint.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapGradientPolyline.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapGradientPolyline.class
+new file mode 100644
+index 0000000..0cbda08
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapGradientPolyline.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapGradientPolylineManager.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapGradientPolylineManager.class
+new file mode 100644
+index 0000000..1bc298f
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapGradientPolylineManager.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapHeatmap.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapHeatmap.class
+new file mode 100644
+index 0000000..67f8a6a
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapHeatmap.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapHeatmapManager.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapHeatmapManager.class
+new file mode 100644
+index 0000000..ffff72a
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapHeatmapManager.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapLiteManager.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapLiteManager.class
+new file mode 100644
+index 0000000..fc5c580
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapLiteManager.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapLocalTile$AIRMapLocalTileProvider.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapLocalTile$AIRMapLocalTileProvider.class
+new file mode 100644
+index 0000000..ac9a0e7
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapLocalTile$AIRMapLocalTileProvider.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapLocalTile.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapLocalTile.class
+new file mode 100644
+index 0000000..1297e58
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapLocalTile.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapLocalTileManager.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapLocalTileManager.class
+new file mode 100644
+index 0000000..575cc89
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapLocalTileManager.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapManager.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapManager.class
+new file mode 100644
+index 0000000..867470f
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapManager.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapMarker$1.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapMarker$1.class
+new file mode 100644
+index 0000000..0bcf7e8
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapMarker$1.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapMarker$2.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapMarker$2.class
+new file mode 100644
+index 0000000..28c91fe
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapMarker$2.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapMarker.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapMarker.class
+new file mode 100644
+index 0000000..4b9c2e1
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapMarker.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapMarkerManager$AirMapMarkerSharedIcon.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapMarkerManager$AirMapMarkerSharedIcon.class
+new file mode 100644
+index 0000000..25d341b
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapMarkerManager$AirMapMarkerSharedIcon.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapMarkerManager.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapMarkerManager.class
+new file mode 100644
+index 0000000..1503527
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapMarkerManager.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapModule$1$1.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapModule$1$1.class
+new file mode 100644
+index 0000000..645bcf4
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapModule$1$1.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapModule$1.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapModule$1.class
+new file mode 100644
+index 0000000..250f8c0
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapModule$1.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapModule$2.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapModule$2.class
+new file mode 100644
+index 0000000..03b66be
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapModule$2.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapModule$3.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapModule$3.class
+new file mode 100644
+index 0000000..4d6f544
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapModule$3.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapModule$4.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapModule$4.class
+new file mode 100644
+index 0000000..86a60ed
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapModule$4.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapModule$5.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapModule$5.class
+new file mode 100644
+index 0000000..98847bb
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapModule$5.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapModule$6.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapModule$6.class
+new file mode 100644
+index 0000000..9e06e1c
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapModule$6.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapModule.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapModule.class
+new file mode 100644
+index 0000000..026264a
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapModule.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapOverlay.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapOverlay.class
+new file mode 100644
+index 0000000..8dc9094
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapOverlay.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapOverlayManager.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapOverlayManager.class
+new file mode 100644
+index 0000000..bc3f959
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapOverlayManager.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapPolygon.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapPolygon.class
+new file mode 100644
+index 0000000..d84ad38
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapPolygon.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapPolygonManager.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapPolygonManager.class
+new file mode 100644
+index 0000000..c80e12b
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapPolygonManager.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapPolyline.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapPolyline.class
+new file mode 100644
+index 0000000..00756a3
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapPolyline.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapPolylineManager.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapPolylineManager.class
+new file mode 100644
+index 0000000..9239a01
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapPolylineManager.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapUrlTile$AIRMapUrlTileProvider.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapUrlTile$AIRMapUrlTileProvider.class
+new file mode 100644
+index 0000000..5e8f6d3
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapUrlTile$AIRMapUrlTileProvider.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapUrlTile.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapUrlTile.class
+new file mode 100644
+index 0000000..ba73185
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapUrlTile.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapUrlTileManager.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapUrlTileManager.class
+new file mode 100644
+index 0000000..6cfec3a
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapUrlTileManager.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$1.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$1.class
+new file mode 100644
+index 0000000..bd03bfe
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$1.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$10.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$10.class
+new file mode 100644
+index 0000000..de87bce
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$10.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$11.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$11.class
+new file mode 100644
+index 0000000..6adb5ce
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$11.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$12.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$12.class
+new file mode 100644
+index 0000000..f7d5bff
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$12.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$13.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$13.class
+new file mode 100644
+index 0000000..dfb628f
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$13.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$14.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$14.class
+new file mode 100644
+index 0000000..0b944fe
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$14.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$15.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$15.class
+new file mode 100644
+index 0000000..4b953fb
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$15.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$16.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$16.class
+new file mode 100644
+index 0000000..b31ca89
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$16.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$17.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$17.class
+new file mode 100644
+index 0000000..f2a7539
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$17.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$2.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$2.class
+new file mode 100644
+index 0000000..c40fc31
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$2.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$3.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$3.class
+new file mode 100644
+index 0000000..aa2f60d
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$3.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$4.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$4.class
+new file mode 100644
+index 0000000..1fbb592
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$4.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$5.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$5.class
+new file mode 100644
+index 0000000..d7fd8a7
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$5.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$6.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$6.class
+new file mode 100644
+index 0000000..4e22e2f
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$6.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$7.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$7.class
+new file mode 100644
+index 0000000..cdbee7e
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$7.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$8.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$8.class
+new file mode 100644
+index 0000000..5a1a95a
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$8.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$9.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$9.class
+new file mode 100644
+index 0000000..8bbe64e
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView$9.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView.class
+new file mode 100644
+index 0000000..22e011e
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapView.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapWMSTile$AIRMapGSUrlTileProvider.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapWMSTile$AIRMapGSUrlTileProvider.class
+new file mode 100644
+index 0000000..6767f1f
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapWMSTile$AIRMapGSUrlTileProvider.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapWMSTile.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapWMSTile.class
+new file mode 100644
+index 0000000..2af5c96
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapWMSTile.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapWMSTileManager.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapWMSTileManager.class
+new file mode 100644
+index 0000000..2d5d906
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/AirMapWMSTileManager.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/BuildConfig.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/BuildConfig.class
+new file mode 100644
+index 0000000..1cc51de
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/BuildConfig.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/FileUtil.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/FileUtil.class
+new file mode 100644
+index 0000000..e388386
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/FileUtil.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/FusedLocationSource$1.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/FusedLocationSource$1.class
+new file mode 100644
+index 0000000..530d02b
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/FusedLocationSource$1.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/FusedLocationSource$2.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/FusedLocationSource$2.class
+new file mode 100644
+index 0000000..3f014d5
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/FusedLocationSource$2.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/FusedLocationSource.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/FusedLocationSource.class
+new file mode 100644
+index 0000000..601698a
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/FusedLocationSource.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/ImageReadable.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/ImageReadable.class
+new file mode 100644
+index 0000000..2900ee6
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/ImageReadable.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/ImageReader$1.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/ImageReader$1.class
+new file mode 100644
+index 0000000..d5c52e4
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/ImageReader$1.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/ImageReader.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/ImageReader.class
+new file mode 100644
+index 0000000..835c6ce
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/ImageReader.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/ImageUtil.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/ImageUtil.class
+new file mode 100644
+index 0000000..57340fe
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/ImageUtil.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/LatLngBoundsUtils.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/LatLngBoundsUtils.class
+new file mode 100644
+index 0000000..9e5976b
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/LatLngBoundsUtils.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/MapsPackage.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/MapsPackage.class
+new file mode 100644
+index 0000000..63f3815
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/MapsPackage.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/RegionChangeEvent.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/RegionChangeEvent.class
+new file mode 100644
+index 0000000..f24fa91
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/RegionChangeEvent.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/SizeReportingShadowNode.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/SizeReportingShadowNode.class
+new file mode 100644
+index 0000000..187ba80
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/SizeReportingShadowNode.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/ViewAttacherGroup.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/ViewAttacherGroup.class
+new file mode 100644
+index 0000000..5bfc996
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/ViewAttacherGroup.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/ViewChangesTracker$1.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/ViewChangesTracker$1.class
+new file mode 100644
+index 0000000..98b5440
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/ViewChangesTracker$1.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/ViewChangesTracker.class b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/ViewChangesTracker.class
+new file mode 100644
+index 0000000..8a448e0
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/javac/debug/classes/com/airbnb/android/react/maps/ViewChangesTracker.class differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/library_assets/debug/out/ula.kml b/node_modules/react-native-maps/lib/android/build/intermediates/library_assets/debug/out/ula.kml
+new file mode 100644
+index 0000000..2504574
+--- /dev/null
++++ b/node_modules/react-native-maps/lib/android/build/intermediates/library_assets/debug/out/ula.kml
+@@ -0,0 +1,1214 @@
++<?xml version="1.0" encoding="utf-8" ?>
++<kml xmlns="http://www.opengis.net/kml/2.2">
++<Document id="root_doc">
++<Schema name="20171123121441_ULA_PARCIAL" id="20171123121441_ULA_PARCIAL">
++	<SimpleField name="timestamp" type="string"></SimpleField>
++	<SimpleField name="begin" type="string"></SimpleField>
++	<SimpleField name="end" type="string"></SimpleField>
++	<SimpleField name="altitudeMode" type="string"></SimpleField>
++	<SimpleField name="tessellate" type="int"></SimpleField>
++	<SimpleField name="extrude" type="int"></SimpleField>
++	<SimpleField name="visibility" type="int"></SimpleField>
++	<SimpleField name="drawOrder" type="int"></SimpleField>
++	<SimpleField name="icon" type="string"></SimpleField>
++</Schema>
++<Folder><name>20171123121441_ULA_PARCIAL</name>
++  <Placemark>
++	<name>-18.9193508,-48.2830592</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2830592,-18.9193508</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>CEO-ULA-00001</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.28328,-18.915815</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>CEO-ULA-00186</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.278833,-18.919549</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>CEO-ULA-00188</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.289805,-18.913945</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>CEO-ULA-00229</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.288815,-18.922615</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>CEO-ULA-00243</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.281013,-18.916794</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>CEO-ULA-00274</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.276156,-18.91852</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>CEO-ULA-00275</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.278656,-18.922156</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-0001</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.283467,-18.91587</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-0360</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2917338,-18.9200969</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-0361</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2905979,-18.921816</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-0362</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2920103,-18.9192301</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-0399</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.29048,-18.9193956</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-0400</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2906689,-18.918796</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-0408</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2912278,-18.9170382</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>CEO-ULA-00391</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.289628,-18.914507</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>CEO-ULA-00053</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.291706,-18.920121</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>CEO-ULA-00067</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.29045,-18.91948</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>CEO-ULA-00288</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.274365,-18.921111</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>CEO-ULA-00332</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.279256,-18.916275</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>CEO-ULA-00337</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.280717,-18.916827</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>CEO-ULA-00350</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.281085,-18.924567</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>CEO-ULA-00369</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.288157,-18.915412</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>CEO-ULA-00372</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.282004,-18.923989</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>CEO-ULA-00379</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.290547,-18.919788</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>CEO-ULA-00382</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.289297,-18.91561</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>CEO-ULA-00386</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.280915,-18.910799</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>CEO-ULA-00388</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.283811,-18.914334</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>CEO-ULA-00390</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.288354,-18.918549</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>CEO-ULA-00400</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.283629,-18.921665</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>CEO-ULA-00394</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.284537,-18.912023</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>CEO-ULA-00396</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.284908,-18.925537</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>CEO-ULA-00399</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.283935,-18.925506</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>CEO-ULA-00417</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.284404,-18.912391</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>CEO-ULA-00495</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.275935,-18.914429</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>CEO-ULA-00448</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.280576,-18.921918</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>CEO-ULA-00449</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.277405,-18.917667</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>CEO-ULA-00488</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.282118,-18.920169</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>CEO-ULA-00489</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.280924,-18.916682</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>CEO-ULA-00491</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.282753,-18.913711</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-2399</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2894488,-18.9230852</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-2400</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2782936,-18.9196916</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-2397</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2809308,-18.9166838</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-2398</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2887073,-18.9228568</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-2401</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2788126,-18.919553</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>CEO-ULA-00509</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.280852,-18.919976</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>CEO-ULA-00531</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.289429,-18.92309</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1579</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2831316,-18.9231769</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1577</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2803822,-18.9193287</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1578</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.281754,-18.9211827</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1545</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2798797,-18.9171188</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1551</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2822027,-18.9181888</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1576</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2791963,-18.917984</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1580</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2820288,-18.9267845</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1736</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.290548,-18.9198029</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1662</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2820532,-18.9267959</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1663</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2837533,-18.92488</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1735</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2904324,-18.919494</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1745</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2893041,-18.9156106</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1773</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2896346,-18.9144805</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1759</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2838156,-18.9143177</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1760</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2840708,-18.9135214</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1761</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2809102,-18.9108123</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1776</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2845163,-18.9120761</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1777</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.286238,-18.9147202</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1778</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2897804,-18.9139702</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1785</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2802345,-18.9267323</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1782</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2845618,-18.9259192</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1783</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2848909,-18.9255362</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1784</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2826035,-18.9257531</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1788</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.283994,-18.9255066</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1789</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2880791,-18.92552</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1791</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2848777,-18.9255045</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1792</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2845053,-18.9269676</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1793</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2823102,-18.9267975</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1794</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2849364,-18.9255375</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1800</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2841773,-18.9227149</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1801</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2836987,-18.9216584</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1802</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2848919,-18.9255115</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1838</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.284408,-18.9123794</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1839</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2843991,-18.9123761</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1768</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2896203,-18.9145271</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1769</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2883589,-18.9185316</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1770</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2896109,-18.9145329</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1771</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2845797,-18.9120706</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1772</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2872279,-18.9128471</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1689</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2914404,-18.9163817</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1690</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2881643,-18.9154096</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1691</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2881523,-18.9154079</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1692</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2859653,-18.9147849</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1693</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2806094,-18.9183195</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1694</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2818765,-18.9164378</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1723</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2818717,-18.9112605</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1724</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2832877,-18.9120452</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1044</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2788265,-18.9195413</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1048</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2898389,-18.9139479</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1049</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2898306,-18.9138754</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1836</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2897986,-18.9139428</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1837</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2873611,-18.9128968</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1710</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2820099,-18.9239905</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1711</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2837723,-18.9242837</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1363</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2776727,-18.9229224</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1366</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.276015,-18.9200525</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1406</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2743386,-18.921128</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1129</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2881549,-18.9223935</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1130</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2888228,-18.9226054</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1246</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2809791,-18.9170914</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-2007</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2781596,-18.9186736</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1963</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2788194,-18.919549</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1956</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2780189,-18.9123572</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1987</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2761483,-18.9185129</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-2006</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2805711,-18.9219041</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-2215</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2850344,-18.9143632</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-2226</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2849368,-18.9255278</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-2227</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2862061,-18.9255751</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-2008</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2824599,-18.9242629</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-2203</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.280991,-18.9201737</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-2206</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2803008,-18.9176824</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-2207</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2809238,-18.9166913</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-2209</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2807351,-18.9112935</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-2214</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2827837,-18.9137244</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1669</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2764255,-18.9140386</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1477</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2894117,-18.9231269</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1478</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2899636,-18.9253263</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-1480</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2897642,-18.9256209</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-2268</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2743334,-18.921121</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-2281</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2808588,-18.9199855</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-2282</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2830492,-18.9193608</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>ST-ULA-0330</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.2905731,-18.9197947</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>CTO-ULA-00159</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.290652,-18.918802</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>CTO-ULA-00160</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.291211,-18.917047</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>CTO-ULA-00161</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.290562,-18.921833</coordinates></Point>
++  </Placemark>
++  <Placemark>
++	<name>CTO-ULA-00162</name>
++	<ExtendedData><SchemaData schemaUrl="#20171123121441_ULA_PARCIAL">
++		<SimpleData name="tessellate">-1</SimpleData>
++		<SimpleData name="extrude">0</SimpleData>
++		<SimpleData name="visibility">-1</SimpleData>
++	</SchemaData></ExtendedData>
++      <Point><coordinates>-48.291992,-18.919241</coordinates></Point>
++  </Placemark>
++</Folder>
++</Document></kml>
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/local_only_symbol_list/debug/R-def.txt b/node_modules/react-native-maps/lib/android/build/intermediates/local_only_symbol_list/debug/R-def.txt
+new file mode 100644
+index 0000000..78ac5b8
+--- /dev/null
++++ b/node_modules/react-native-maps/lib/android/build/intermediates/local_only_symbol_list/debug/R-def.txt
+@@ -0,0 +1,2 @@
++R_DEF: Internal format may change without notice
++local
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt b/node_modules/react-native-maps/lib/android/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt
+new file mode 100644
+index 0000000..7287bb6
+--- /dev/null
++++ b/node_modules/react-native-maps/lib/android/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt
+@@ -0,0 +1,14 @@
++1<?xml version="1.0" encoding="utf-8"?>
++2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++3    package="com.airbnb.android.react.maps" >
++4
++5    <uses-sdk android:minSdkVersion="23" />
++6
++7    <uses-permission android:name="android.permission.INTERNET" />
++7-->/Users/yashchouhan/Desktop/codebrew/RoyoDispatch-ReactNative/node_modules/react-native-maps/lib/android/src/main/AndroidManifest.xml:4:5-67
++7-->/Users/yashchouhan/Desktop/codebrew/RoyoDispatch-ReactNative/node_modules/react-native-maps/lib/android/src/main/AndroidManifest.xml:4:22-64
++8    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
++8-->/Users/yashchouhan/Desktop/codebrew/RoyoDispatch-ReactNative/node_modules/react-native-maps/lib/android/src/main/AndroidManifest.xml:5:5-81
++8-->/Users/yashchouhan/Desktop/codebrew/RoyoDispatch-ReactNative/node_modules/react-native-maps/lib/android/src/main/AndroidManifest.xml:5:22-78
++9
++10</manifest>
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml b/node_modules/react-native-maps/lib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml
+new file mode 100644
+index 0000000..3eec4a4
+--- /dev/null
++++ b/node_modules/react-native-maps/lib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml
+@@ -0,0 +1,10 @@
++<?xml version="1.0" encoding="utf-8"?>
++<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    package="com.airbnb.android.react.maps" >
++
++    <uses-sdk android:minSdkVersion="23" />
++
++    <uses-permission android:name="android.permission.INTERNET" />
++    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
++
++</manifest>
+\ No newline at end of file
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/navigation_json/debug/navigation.json b/node_modules/react-native-maps/lib/android/build/intermediates/navigation_json/debug/navigation.json
+new file mode 100644
+index 0000000..0637a08
+--- /dev/null
++++ b/node_modules/react-native-maps/lib/android/build/intermediates/navigation_json/debug/navigation.json
+@@ -0,0 +1 @@
++[]
+\ No newline at end of file
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/runtime_library_classes_jar/debug/classes.jar b/node_modules/react-native-maps/lib/android/build/intermediates/runtime_library_classes_jar/debug/classes.jar
+new file mode 100644
+index 0000000..d15037a
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/intermediates/runtime_library_classes_jar/debug/classes.jar differ
+diff --git a/node_modules/react-native-maps/lib/android/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt b/node_modules/react-native-maps/lib/android/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt
+new file mode 100644
+index 0000000..29e23c4
+--- /dev/null
++++ b/node_modules/react-native-maps/lib/android/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt
+@@ -0,0 +1 @@
++com.airbnb.android.react.maps
+diff --git a/node_modules/react-native-maps/lib/android/build/outputs/logs/manifest-merger-debug-report.txt b/node_modules/react-native-maps/lib/android/build/outputs/logs/manifest-merger-debug-report.txt
+new file mode 100644
+index 0000000..06347d8
+--- /dev/null
++++ b/node_modules/react-native-maps/lib/android/build/outputs/logs/manifest-merger-debug-report.txt
+@@ -0,0 +1,25 @@
++-- Merging decision tree log ---
++manifest
++ADDED from /Users/yashchouhan/Desktop/codebrew/RoyoDispatch-ReactNative/node_modules/react-native-maps/lib/android/src/main/AndroidManifest.xml:2:1-6:12
++INJECTED from /Users/yashchouhan/Desktop/codebrew/RoyoDispatch-ReactNative/node_modules/react-native-maps/lib/android/src/main/AndroidManifest.xml:2:1-6:12
++	package
++		ADDED from /Users/yashchouhan/Desktop/codebrew/RoyoDispatch-ReactNative/node_modules/react-native-maps/lib/android/src/main/AndroidManifest.xml:3:5-44
++		INJECTED from /Users/yashchouhan/Desktop/codebrew/RoyoDispatch-ReactNative/node_modules/react-native-maps/lib/android/src/main/AndroidManifest.xml
++	xmlns:android
++		ADDED from /Users/yashchouhan/Desktop/codebrew/RoyoDispatch-ReactNative/node_modules/react-native-maps/lib/android/src/main/AndroidManifest.xml:2:11-69
++uses-permission#android.permission.INTERNET
++ADDED from /Users/yashchouhan/Desktop/codebrew/RoyoDispatch-ReactNative/node_modules/react-native-maps/lib/android/src/main/AndroidManifest.xml:4:5-67
++	android:name
++		ADDED from /Users/yashchouhan/Desktop/codebrew/RoyoDispatch-ReactNative/node_modules/react-native-maps/lib/android/src/main/AndroidManifest.xml:4:22-64
++uses-permission#android.permission.ACCESS_COARSE_LOCATION
++ADDED from /Users/yashchouhan/Desktop/codebrew/RoyoDispatch-ReactNative/node_modules/react-native-maps/lib/android/src/main/AndroidManifest.xml:5:5-81
++	android:name
++		ADDED from /Users/yashchouhan/Desktop/codebrew/RoyoDispatch-ReactNative/node_modules/react-native-maps/lib/android/src/main/AndroidManifest.xml:5:22-78
++uses-sdk
++INJECTED from /Users/yashchouhan/Desktop/codebrew/RoyoDispatch-ReactNative/node_modules/react-native-maps/lib/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
++INJECTED from /Users/yashchouhan/Desktop/codebrew/RoyoDispatch-ReactNative/node_modules/react-native-maps/lib/android/src/main/AndroidManifest.xml
++INJECTED from /Users/yashchouhan/Desktop/codebrew/RoyoDispatch-ReactNative/node_modules/react-native-maps/lib/android/src/main/AndroidManifest.xml
++	android:targetSdkVersion
++		INJECTED from /Users/yashchouhan/Desktop/codebrew/RoyoDispatch-ReactNative/node_modules/react-native-maps/lib/android/src/main/AndroidManifest.xml
++	android:minSdkVersion
++		INJECTED from /Users/yashchouhan/Desktop/codebrew/RoyoDispatch-ReactNative/node_modules/react-native-maps/lib/android/src/main/AndroidManifest.xml
+diff --git a/node_modules/react-native-maps/lib/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin b/node_modules/react-native-maps/lib/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin
+new file mode 100644
+index 0000000..1087edf
+Binary files /dev/null and b/node_modules/react-native-maps/lib/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin differ
+diff --git a/node_modules/react-native-maps/lib/components/MapCallout.js b/node_modules/react-native-maps/lib/components/MapCallout.js
+index 48e5dee..56fd2a6 100644
+--- a/node_modules/react-native-maps/lib/components/MapCallout.js
++++ b/node_modules/react-native-maps/lib/components/MapCallout.js
+@@ -1,6 +1,7 @@
+ import PropTypes from 'prop-types';
+ import React from 'react';
+-import { StyleSheet, ViewPropTypes, View } from 'react-native';
++import { StyleSheet, View } from 'react-native';
++import { ViewPropTypes } from 'deprecated-react-native-prop-types';
+ import decorateMapComponent, {
+   SUPPORTED,
+   USES_DEFAULT_IMPLEMENTATION,
+diff --git a/node_modules/react-native-maps/lib/components/MapCalloutSubview.js b/node_modules/react-native-maps/lib/components/MapCalloutSubview.js
+index 6aa6369..fa7cbbb 100644
+--- a/node_modules/react-native-maps/lib/components/MapCalloutSubview.js
++++ b/node_modules/react-native-maps/lib/components/MapCalloutSubview.js
+@@ -1,6 +1,7 @@
+ import PropTypes from 'prop-types';
+ import React from 'react';
+-import { StyleSheet, ViewPropTypes, View } from 'react-native';
++import { StyleSheet, View } from 'react-native';
++import { ViewPropTypes } from 'deprecated-react-native-prop-types';
+ import decorateMapComponent, {
+   SUPPORTED,
+   NOT_SUPPORTED,
+diff --git a/node_modules/react-native-maps/lib/components/MapCircle.js b/node_modules/react-native-maps/lib/components/MapCircle.js
+index 3001751..20eef47 100644
+--- a/node_modules/react-native-maps/lib/components/MapCircle.js
++++ b/node_modules/react-native-maps/lib/components/MapCircle.js
+@@ -1,6 +1,7 @@
+ import PropTypes from 'prop-types';
+ import React from 'react';
+-import { ColorPropType, ViewPropTypes, View } from 'react-native';
++import { ColorPropType, View } from 'react-native';
++import { ViewPropTypes } from 'deprecated-react-native-prop-types';
+ import decorateMapComponent, {
+   USES_DEFAULT_IMPLEMENTATION,
+   SUPPORTED,
+diff --git a/node_modules/react-native-maps/lib/components/MapHeatmap.js b/node_modules/react-native-maps/lib/components/MapHeatmap.js
+index b4ad6bb..d3fcf42 100644
+--- a/node_modules/react-native-maps/lib/components/MapHeatmap.js
++++ b/node_modules/react-native-maps/lib/components/MapHeatmap.js
+@@ -1,6 +1,7 @@
+ import PropTypes from 'prop-types';
+ import React from 'react';
+-import { ViewPropTypes, View, processColor } from 'react-native';
++import {  View, processColor } from 'react-native';
++import { ViewPropTypes } from 'deprecated-react-native-prop-types';
+ import decorateMapComponent, {
+   SUPPORTED,
+   USES_DEFAULT_IMPLEMENTATION,
+diff --git a/node_modules/react-native-maps/lib/components/MapLocalTile.js b/node_modules/react-native-maps/lib/components/MapLocalTile.js
+index dc09b86..958a586 100644
+--- a/node_modules/react-native-maps/lib/components/MapLocalTile.js
++++ b/node_modules/react-native-maps/lib/components/MapLocalTile.js
+@@ -1,8 +1,8 @@
+ import PropTypes from 'prop-types';
+ import React from 'react';
+ 
+-import { ViewPropTypes, View } from 'react-native';
+-
++import {  View } from 'react-native';
++import { ViewPropTypes } from 'deprecated-react-native-prop-types';
+ import decorateMapComponent, {
+   USES_DEFAULT_IMPLEMENTATION,
+   SUPPORTED,
+diff --git a/node_modules/react-native-maps/lib/components/MapMarker.js b/node_modules/react-native-maps/lib/components/MapMarker.js
+index eb0b98d..11fd5d3 100644
+--- a/node_modules/react-native-maps/lib/components/MapMarker.js
++++ b/node_modules/react-native-maps/lib/components/MapMarker.js
+@@ -8,10 +8,9 @@ import {
+   Animated,
+   Image,
+   findNodeHandle,
+-  ViewPropTypes,
+   View,
+ } from 'react-native';
+-
++import { ViewPropTypes } from 'deprecated-react-native-prop-types';
+ import decorateMapComponent, {
+   SUPPORTED,
+   USES_DEFAULT_IMPLEMENTATION,
+diff --git a/node_modules/react-native-maps/lib/components/MapPolygon.js b/node_modules/react-native-maps/lib/components/MapPolygon.js
+index ea50cfd..8e1eeb1 100644
+--- a/node_modules/react-native-maps/lib/components/MapPolygon.js
++++ b/node_modules/react-native-maps/lib/components/MapPolygon.js
+@@ -1,6 +1,7 @@
+ import PropTypes from 'prop-types';
+ import React from 'react';
+-import { ColorPropType, ViewPropTypes, View } from 'react-native';
++import { ColorPropType, View } from 'react-native';
++import { ViewPropTypes } from 'deprecated-react-native-prop-types';
+ import decorateMapComponent, {
+   USES_DEFAULT_IMPLEMENTATION,
+   SUPPORTED,
+diff --git a/node_modules/react-native-maps/lib/components/MapPolyline.js b/node_modules/react-native-maps/lib/components/MapPolyline.js
+index d162654..d6e064b 100644
+--- a/node_modules/react-native-maps/lib/components/MapPolyline.js
++++ b/node_modules/react-native-maps/lib/components/MapPolyline.js
+@@ -1,6 +1,7 @@
+ import PropTypes from 'prop-types';
+ import React from 'react';
+-import { ColorPropType, ViewPropTypes, View } from 'react-native';
++import { ColorPropType, View } from 'react-native';
++import { ViewPropTypes } from 'deprecated-react-native-prop-types';
+ import decorateMapComponent, {
+   USES_DEFAULT_IMPLEMENTATION,
+   SUPPORTED,
+diff --git a/node_modules/react-native-maps/lib/components/MapUrlTile.js b/node_modules/react-native-maps/lib/components/MapUrlTile.js
+index 494dcf6..89694a2 100644
+--- a/node_modules/react-native-maps/lib/components/MapUrlTile.js
++++ b/node_modules/react-native-maps/lib/components/MapUrlTile.js
+@@ -1,7 +1,8 @@
+ import PropTypes from 'prop-types';
+ import React from 'react';
+ 
+-import { ViewPropTypes, View } from 'react-native';
++import {  View } from 'react-native';
++import { ViewPropTypes } from 'deprecated-react-native-prop-types';
+ 
+ import decorateMapComponent, {
+   USES_DEFAULT_IMPLEMENTATION,
+diff --git a/node_modules/react-native-maps/lib/components/MapView.js b/node_modules/react-native-maps/lib/components/MapView.js
+index a3297ee..ee46dca 100644
+--- a/node_modules/react-native-maps/lib/components/MapView.js
++++ b/node_modules/react-native-maps/lib/components/MapView.js
+@@ -9,7 +9,6 @@ import {
+   NativeModules,
+   ColorPropType,
+   findNodeHandle,
+-  ViewPropTypes,
+   View,
+ } from 'react-native';
+ import MapMarker from './MapMarker';
+@@ -25,6 +24,7 @@ import MapLocalTile from './MapLocalTile';
+ import MapHeatMap from './MapHeatmap';
+ import AnimatedRegion from './AnimatedRegion';
+ import Geojson from './Geojson';
++import { ViewPropTypes } from 'deprecated-react-native-prop-types';
+ import {
+   contextTypes as childContextTypes,
+   getAirMapName,
+diff --git a/node_modules/react-native-maps/lib/components/MapWMSTile.js b/node_modules/react-native-maps/lib/components/MapWMSTile.js
+index 5623564..0fc3541 100644
+--- a/node_modules/react-native-maps/lib/components/MapWMSTile.js
++++ b/node_modules/react-native-maps/lib/components/MapWMSTile.js
+@@ -1,8 +1,8 @@
+ import PropTypes from 'prop-types';
+ import React from 'react';
+ 
+-import { ViewPropTypes, View } from 'react-native';
+-
++import {  View } from 'react-native';
++import { ViewPropTypes } from 'deprecated-react-native-prop-types';
+ import decorateMapComponent, {
+   USES_DEFAULT_IMPLEMENTATION,
+   SUPPORTED,

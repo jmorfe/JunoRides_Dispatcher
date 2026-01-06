@@ -1,0 +1,9 @@
+#include "Pods/Target Support Files/Pods-available_pods-Homeric/Pods-available_pods-Homeric.release.xcconfig"
+
+PROJECT_BUNDLE_ID = com.Homeric.Dispatch
+PROJECT_APP_VERSION = 1.0
+PROJECT_BUILD_NUMBER = 20
+PROJECT_APP_NAME =Homeric Dispatch
+PROJECT_PLIST =HomericInfo
+PROJECT_ENTITLEMENT=RoyoDriverAppRelease
+CODE_PUSH_KEY = X_kx5585R87UjqcVFZwsK-y76PSVa0A16Cft6

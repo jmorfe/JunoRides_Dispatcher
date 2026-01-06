@@ -1,0 +1,9 @@
+#include "Pods/Target Support Files/Pods-available_pods-Punnet/Pods-available_pods-Punnet.release.xcconfig"
+
+PROJECT_BUNDLE_ID = com.Punnet.Dispatch
+PROJECT_APP_VERSION = 1.0
+PROJECT_BUILD_NUMBER = 17
+PROJECT_APP_NAME =Punnet Dispatch
+PROJECT_PLIST =PunnetInfo
+PROJECT_ENTITLEMENT=RoyoDriverAppRelease
+CODE_PUSH_KEY = 78clvCD3RsHk46BtODQ26N5HrJjlNDGHihzP0

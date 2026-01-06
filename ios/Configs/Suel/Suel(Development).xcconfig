@@ -1,0 +1,12 @@
+#include "Pods/Target Support Files/Pods-available_pods-Voltaic/Pods-available_pods-Voltaic.debug.xcconfig"
+
+
+PROJECT_BUNDLE_ID = com.Suel.Dispatch
+PROJECT_APP_VERSION = 1.0
+PROJECT_BUILD_NUMBER = 16
+PROJECT_APP_NAME =Suel Dispatch
+PROJECT_PLIST =SuelInfo
+PROJECT_ENTITLEMENT=RoyoDriverAppRelease
+CODE_PUSH_KEY = RMbvxSLUVTP4q1SmGc-rBQyJG2cYIloWgvLuN
+
+

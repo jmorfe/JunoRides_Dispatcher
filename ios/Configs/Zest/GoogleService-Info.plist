@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>187787966535-r4tc9a1t55dgh8or69od99tv9aui5a59.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.187787966535-r4tc9a1t55dgh8or69od99tv9aui5a59</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>187787966535-0447a8qa6h6il8s9b22j31st49qcae6m.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB8lVNWPHjBpYcseblFpwWSnGof1jw-rL0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>187787966535</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Zest.Dispatch</string>
+	<key>PROJECT_ID</key>
+	<string>royo-dispatcher-e70af</string>
+	<key>STORAGE_BUCKET</key>
+	<string>royo-dispatcher-e70af.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:187787966535:ios:3884ea1952da92fb0fd962</string>
+</dict>
+</plist>

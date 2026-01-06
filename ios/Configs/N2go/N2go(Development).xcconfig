@@ -1,0 +1,8 @@
+#include "Pods/Target Support Files/Pods-available_pods-N2go/Pods-available_pods-N2go.debug.xcconfig"
+
+PROJECT_BUNDLE_ID = com.n2go.dispatcher
+PROJECT_APP_VERSION = 1.0
+PROJECT_BUILD_NUMBER = 1
+PROJECT_APP_NAME = N2go Driver
+PROJECT_PLIST = N2goInfo
+PROJECT_ENTITLEMENT=RoyoDriverAppRelease
