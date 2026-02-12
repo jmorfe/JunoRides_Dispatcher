@@ -10,7 +10,6 @@ import navigationStrings from '../../navigation/navigationStrings'
 import commonStylesFun from '../../styles/commonStyles'
 import fontFamily from '../../styles/fontFamily'
 import { moderateScale, moderateScaleVertical } from '../../styles/responsiveSize'
-import ZendeskChat from '../../library/react-native-zendesk-chat';
 import strings from '../../constants/lang'
 import actions from '../../redux/actions'
 import { showError, showSuccess } from '../../utils/helperFunctions'
@@ -28,10 +27,10 @@ export default function Account({
         fontFamily
     })
     useEffect(() => {
-        ZendeskChat.init(
-            `${zendeskKeys?.keys?.account_key}`,
-            `${zendeskKeys?.keys?.application_id}`,
-        );
+        // ZendeskChat.init(
+        //     `${zendeskKeys?.keys?.account_key}`,
+        //     `${zendeskKeys?.keys?.application_id}`,
+        // );
     }, [zendeskKeys?.keys?.account_key,
     zendeskKeys?.keys?.application_id,])
 
@@ -49,16 +48,16 @@ export default function Account({
             return
         }
 
-        ZendeskChat.setVisitorInfo({
-            name: userData?.name,
-            phone: userData?.phone_number ? userData?.phone_number : '',
-        })
-        ZendeskChat.startChat({
-            name: userData?.name,
-            phone: userData?.phone_number ? userData?.phone_number : '',
-            withChat: true,
-            color: '#000',
-        });
+        // ZendeskChat.setVisitorInfo({
+        //     name: userData?.name,
+        //     phone: userData?.phone_number ? userData?.phone_number : '',
+        // })
+        // ZendeskChat.startChat({
+        //     name: userData?.name,
+        //     phone: userData?.phone_number ? userData?.phone_number : '',
+        //     withChat: true,
+        //     color: '#000',
+        // });
     };
 
     const onLogoutPress = () => {
@@ -85,12 +84,12 @@ export default function Account({
             .then((res) => {
                 console.log(res, 'login data');
                 setTimeout(() => {
-                   removeItem("userData").then(()=>{
-                     removerUserData()
-                     showSuccess(res?.message ? res?.message : 'Logout successfully.');
-                   })
+                    removeItem("userData").then(() => {
+                        removerUserData()
+                        showSuccess(res?.message ? res?.message : 'Logout successfully.');
+                    })
                 }, 400);
-              })
+            })
             .catch(errorMethod);
     };
 
@@ -134,9 +133,9 @@ export default function Account({
                 <LeftImgRightTxt onPress={moveToNewScreen(navigationStrings.PROFILESTACK)} leftImgSrc={imagePath.profileImage} rightTxt={strings.PROFILE} />
                 <LeftImgRightTxt onPress={moveToNewScreen(navigationStrings.TASKHISTORY)} leftImgSrc={imagePath.taskHistory} rightTxt={strings.TASKHISTORY} />
                 <LeftImgRightTxt onPress={moveToNewScreen(navigationStrings.WALLETSTACK)} leftImgSrc={imagePath.wallet} rightTxt={strings.WALLET} />
-                <LeftImgRightTxt onPress={moveToNewScreen(navigationStrings.SERVICE_SLOTS)} leftImgSrc={imagePath.time} rightTxt={strings.DATE_TIME} /> 
+                <LeftImgRightTxt onPress={moveToNewScreen(navigationStrings.SERVICE_SLOTS)} leftImgSrc={imagePath.time} rightTxt={strings.DATE_TIME} />
                 <LeftImgRightTxt onPress={moveToNewScreen(navigationStrings.PRODUCTS_PRICE)} leftImgSrc={imagePath.icPayout} rightTxt={strings.SERVICE_DETAILS} />
-             <LeftImgRightTxt onPress={moveToNewScreen(navigationStrings.SUBSCRIPTION_STACK)} leftImgSrc={imagePath.icSubscription} rightTxt={strings.SUBSCRIPTIONS} />
+                <LeftImgRightTxt onPress={moveToNewScreen(navigationStrings.SUBSCRIPTION_STACK)} leftImgSrc={imagePath.icSubscription} rightTxt={strings.SUBSCRIPTIONS} />
                 <LeftImgRightTxt onPress={moveToNewScreen(navigationStrings.SETTINGS)} leftImgSrc={imagePath.settingsIcon} rightTxt={strings.SETTINGS} />
                 <LeftImgRightTxt onPress={onStartSupportChat} leftImgSrc={imagePath.support2} rightTxt={strings.SUPPORT} />
                 <LeftImgRightTxt onPress={moveToNewScreen(navigationStrings.CONTACTUS)} leftImgSrc={imagePath.contact2} rightTxt={strings.CONTACT} />

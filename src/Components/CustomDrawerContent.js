@@ -23,7 +23,6 @@ import { useFocusEffect } from "@react-navigation/native";
 import { cloneDeep } from "lodash";
 import ScaledImage from "react-native-scalable-image";
 import DeviceInfo, { getBundleId } from "react-native-device-info";
-import ZendeskChat from "react-native-zendesk-chat";
 import { appIds } from "../utils/constants/DynamicAppKeys";
 import { Subscriptions } from "../Screens";
 import { useDarkMode } from "react-native-dynamic";
@@ -173,35 +172,35 @@ function CustomDrawerContent({
     ? JSON.parse(userData?.client_preference?.custom_mode)
     : undefined;
 
-    useEffect(() => {
-      const backAction = () => {
-        if (navigation.canGoBack()) {
-          navigation.goBack();
-        }
-        else {
-          Alert.alert("Exit App", "Do you want to close the app?", [
-            { text: "No", onPress: () => null, style: "cancel" },
-            { text: "Yes", onPress: () => BackHandler.exitApp() },
-          ]);
-        }
-        return true;
-      };
-  
-      const backHandler = BackHandler.addEventListener(
-        'hardwareBackPress',
-        backAction
-      );
-  
-      return () => backHandler.remove();
-    }, [navigation]);
-    
+  useEffect(() => {
+    const backAction = () => {
+      if (navigation.canGoBack()) {
+        navigation.goBack();
+      }
+      else {
+        Alert.alert("Exit App", "Do you want to close the app?", [
+          { text: "No", onPress: () => null, style: "cancel" },
+          { text: "Yes", onPress: () => BackHandler.exitApp() },
+        ]);
+      }
+      return true;
+    };
+
+    const backHandler = BackHandler.addEventListener(
+      'hardwareBackPress',
+      backAction
+    );
+
+    return () => backHandler.remove();
+  }, [navigation]);
+
 
   useEffect(() => {
     if (zendeskKeys?.keys?.account_key && zendeskKeys?.keys?.application_id) {
-      ZendeskChat.init(
-        `${zendeskKeys?.keys?.account_key}`,
-        `${zendeskKeys?.keys?.application_id}`
-      );
+      // ZendeskChat.init(
+      //   `${zendeskKeys?.keys?.account_key}`,
+      //   `${zendeskKeys?.keys?.application_id}`
+      // );
     }
 
     updateState({
@@ -249,7 +248,7 @@ function CustomDrawerContent({
         },
         {
           id: 5,
-          label: (getBundleId() == appIds.mrVeloz && defaultLanguage?.value == 'es') ? strings.PAYOUT_MRVELOZ:strings.PAYOUT,
+          label: (getBundleId() == appIds.mrVeloz && defaultLanguage?.value == 'es') ? strings.PAYOUT_MRVELOZ : strings.PAYOUT,
           image: imagePath.icPayout,
           key: navigationStrings.PAYOUT_STACK,
           subRoute: navigationStrings.PAYOUT_STACK,
@@ -364,10 +363,10 @@ function CustomDrawerContent({
         console.log(res, 'login data');
         updateState({ isLoading: false });
         setTimeout(() => {
-           removeItem("userData").then(()=>{
-             removerUserData()
-             showSuccess(res?.message ? res?.message : 'Logout successfully.');
-           })
+          removeItem("userData").then(() => {
+            removerUserData()
+            showSuccess(res?.message ? res?.message : 'Logout successfully.');
+          })
         }, 400);
       })
       .catch(errorMethod);
@@ -383,16 +382,16 @@ function CustomDrawerContent({
       showError('Zendesk not configured')
       return
     }
-    ZendeskChat.setVisitorInfo({
-      name: userData?.name,
-      phone: userData?.phone_number ? userData?.phone_number : '',
-    });
-    ZendeskChat.startChat({
-      name: userData?.name,
-      phone: userData?.phone_number ? userData?.phone_number : '',
-      withChat: true,
-      color: '#000',
-    });
+    // ZendeskChat.setVisitorInfo({
+    //   name: userData?.name,
+    //   phone: userData?.phone_number ? userData?.phone_number : '',
+    // });
+    // ZendeskChat.startChat({
+    //   name: userData?.name,
+    //   phone: userData?.phone_number ? userData?.phone_number : '',
+    //   withChat: true,
+    //   color: '#000',
+    // });
   };
 
   const toggleSwitch = (status) => {

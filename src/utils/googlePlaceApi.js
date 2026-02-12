@@ -1,5 +1,4 @@
 import axios from 'axios';
-import Geocoder from 'react-native-geocoder';
 import Geolocation from 'react-native-geolocation-service';
 
 export const googlePlacesApi = async (data, key, latLng) => {
@@ -81,7 +80,7 @@ export const getCurrentLocationFromApi = () =>
       error => {
         reject(error.message);
       },
-      {enableHighAccuracy: true, timeout: 25000, maximumAge: 20000},
+      { enableHighAccuracy: true, timeout: 25000, maximumAge: 20000 },
     );
   });
 
@@ -113,10 +112,8 @@ export const getAddressFromLatLong = (latlng, mapKey) =>
 export const getAllTravelDetails = async (addresses, key) => {
   try {
     let res = await fetch(
-      `https://maps.googleapis.com/maps/api/distancematrix/json?origins=${
-        addresses[0]?.pickupAddress
-      }&destinations=${
-        addresses[1]?.dropAddress
+      `https://maps.googleapis.com/maps/api/distancematrix/json?origins=${addresses[0]?.pickupAddress
+      }&destinations=${addresses[1]?.dropAddress
       }&units=imperial&key=${'AIzaSyDa0TVxssrT6wV21f6CTvYBenao5wVxUgM'}`,
       {
         method: 'GET',

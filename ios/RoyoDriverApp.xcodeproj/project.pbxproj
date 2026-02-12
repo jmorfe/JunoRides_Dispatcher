@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4EFD088C2DE4373100241B70 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = ED83E4042BEB687A00CFDE52 /* AppDelegate.mm */; };
+		48D2B727C9F3E5944EF5CF47 /* Pods_available_pods_JunoRide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D637925C33E3D084CA5FEE0 /* Pods_available_pods_JunoRide.framework */; };
 		4EFD088D2DE4373100241B70 /* RoyoDriverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84961AE127EB05D300B58C31 /* RoyoDriverApp.swift */; };
-		4EFD088E2DE4373100241B70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		4EFD08912DE4373100241B70 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C2093B274279C800C82ABC /* Images.xcassets */; };
 		4EFD08922DE4373100241B70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		4EFD08942DE4373100241B70 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -20,6 +19,9 @@
 		4EFD089B2DE4373100241B70 /* campton-semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84CE2BC326E9E6D20066EEEE /* campton-semibold.ttf */; };
 		4EFD089C2DE4373100241B70 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 7CB99027340585E828A13C30 /* PrivacyInfo.xcprivacy */; };
 		4EFD08A62DE43B7900241B70 /* JunoRideInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EFD08A42DE43B7900241B70 /* JunoRideInfo.plist */; };
+		5334512D2F3DE921003E26A0 /* Razorpay.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFD08AC2DE43BEB00241B70 /* Razorpay.xcframework */; };
+		5334512E2F3DE921003E26A0 /* Razorpay.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFD08AC2DE43BEB00241B70 /* Razorpay.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		536F3FE52F3DE12400B3709F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536F3FE42F3DE12400B3709F /* AppDelegate.swift */; };
 		8408A9532E93A17400002574 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8408A9512E93A15100002574 /* GoogleService-Info.plist */; };
 		846593E82E93A8C100A9B756 /* ChatProvidersSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFD08A72DE43BEB00241B70 /* ChatProvidersSDK.xcframework */; };
 		846593E92E93A8C100A9B756 /* ChatProvidersSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFD08A72DE43BEB00241B70 /* ChatProvidersSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -31,11 +33,8 @@
 		846593F02E93A8CF00A9B756 /* MessagingAPI.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFD08AA2DE43BEB00241B70 /* MessagingAPI.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		846593F12E93A8CF00A9B756 /* MessagingSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFD08AB2DE43BEB00241B70 /* MessagingSDK.xcframework */; };
 		846593F22E93A8CF00A9B756 /* MessagingSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFD08AB2DE43BEB00241B70 /* MessagingSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		846593F32E93A8CF00A9B756 /* Razorpay.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFD08AC2DE43BEB00241B70 /* Razorpay.xcframework */; };
-		846593F42E93A8CF00A9B756 /* Razorpay.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFD08AC2DE43BEB00241B70 /* Razorpay.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		846593F52E93A8CF00A9B756 /* SDKConfigurations.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFD08AD2DE43BEB00241B70 /* SDKConfigurations.xcframework */; };
 		846593F62E93A8CF00A9B756 /* SDKConfigurations.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFD08AD2DE43BEB00241B70 /* SDKConfigurations.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CF8FCF2B3001893FCAD5EE2C /* libPods-available_pods-JunoRide.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACCF3DD97BE9324D774C4B7 /* libPods-available_pods-JunoRide.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,10 +45,10 @@
 			dstSubfolderSpec = 10;
 			files = (
 				846593F22E93A8CF00A9B756 /* MessagingSDK.xcframework in Embed Frameworks */,
-				846593F42E93A8CF00A9B756 /* Razorpay.xcframework in Embed Frameworks */,
 				846593EB2E93A8C100A9B756 /* ChatSDK.xcframework in Embed Frameworks */,
 				846593ED2E93A8C100A9B756 /* CommonUISDK.xcframework in Embed Frameworks */,
 				846593E92E93A8C100A9B756 /* ChatProvidersSDK.xcframework in Embed Frameworks */,
+				5334512E2F3DE921003E26A0 /* Razorpay.xcframework in Embed Frameworks */,
 				846593F62E93A8CF00A9B756 /* SDKConfigurations.xcframework in Embed Frameworks */,
 				846593F02E93A8CF00A9B756 /* MessagingAPI.xcframework in Embed Frameworks */,
 			);
@@ -59,12 +58,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0ACCF3DD97BE9324D774C4B7 /* libPods-available_pods-JunoRide.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-JunoRide.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E9552752B627F33007AA49A /* KhaleejTimes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KhaleejTimes.entitlements; sourceTree = "<group>"; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RoyoDriverApp/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = RoyoDriverApp/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RoyoDriverApp/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RoyoDriverApp/main.m; sourceTree = "<group>"; };
 		309E136FDE5C27D85F630AED /* Pods-available_pods-JunoRide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-JunoRide.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-JunoRide/Pods-available_pods-JunoRide.debug.xcconfig"; sourceTree = "<group>"; };
 		4EF8FD0C2C89DAEF001B7A88 /* JunoRide(Development).xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "JunoRide(Development).xcconfig"; sourceTree = "<group>"; };
 		4EF8FD0E2C89DB11001B7A88 /* JunoRide(Production).xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "JunoRide(Production).xcconfig"; sourceTree = "<group>"; };
@@ -76,9 +71,12 @@
 		4EFD08A92DE43BEB00241B70 /* CommonUISDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CommonUISDK.xcframework; path = Pods/ZendeskCommonUISDK/CommonUISDK.xcframework; sourceTree = "<group>"; };
 		4EFD08AA2DE43BEB00241B70 /* MessagingAPI.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MessagingAPI.xcframework; path = Pods/ZendeskMessagingAPISDK/MessagingAPI.xcframework; sourceTree = "<group>"; };
 		4EFD08AB2DE43BEB00241B70 /* MessagingSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MessagingSDK.xcframework; path = Pods/ZendeskMessagingSDK/MessagingSDK.xcframework; sourceTree = "<group>"; };
-		4EFD08AC2DE43BEB00241B70 /* Razorpay.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Razorpay.xcframework; path = "Pods/razorpay-pod/Pod/Razorpay.xcframework"; sourceTree = "<group>"; };
+		4EFD08AC2DE43BEB00241B70 /* Razorpay.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:3J5MJT3GNL:Razorpay Software Private Limited"; lastKnownFileType = wrapper.xcframework; name = Razorpay.xcframework; path = "Pods/razorpay-pod/Pod/Razorpay.xcframework"; sourceTree = "<group>"; };
 		4EFD08AD2DE43BEB00241B70 /* SDKConfigurations.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SDKConfigurations.xcframework; path = Pods/ZendeskSDKConfigurationsSDK/SDKConfigurations.xcframework; sourceTree = "<group>"; };
 		4FD089DA337BAEBCB22236F9 /* Pods-available_pods-JunoRide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-JunoRide.release.xcconfig"; path = "Target Support Files/Pods-available_pods-JunoRide/Pods-available_pods-JunoRide.release.xcconfig"; sourceTree = "<group>"; };
+		536F3FE42F3DE12400B3709F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		536F3FE62F3DE44200B3709F /* Razorpay.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Razorpay.xcframework; path = "Pods/razorpay-core-pod/Pod/core/Razorpay.xcframework"; sourceTree = "<group>"; };
+		5D637925C33E3D084CA5FEE0 /* Pods_available_pods_JunoRide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_available_pods_JunoRide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CB99027340585E828A13C30 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RoyoDriverApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8408A9512E93A15100002574 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -92,7 +90,6 @@
 		84CE2BC526E9E6D20066EEEE /* campton-book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "campton-book.ttf"; sourceTree = "<group>"; };
 		84CE2BC626E9E6D20066EEEE /* campton-medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "campton-medium.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		ED83E4042BEB687A00CFDE52 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = RoyoDriverApp/AppDelegate.mm; sourceTree = "<group>"; };
 		F3951B57E911D51C9FBE6364 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,11 +101,11 @@
 				846593EA2E93A8C100A9B756 /* ChatSDK.xcframework in Frameworks */,
 				846593F52E93A8CF00A9B756 /* SDKConfigurations.xcframework in Frameworks */,
 				846593F12E93A8CF00A9B756 /* MessagingSDK.xcframework in Frameworks */,
+				5334512D2F3DE921003E26A0 /* Razorpay.xcframework in Frameworks */,
 				846593EF2E93A8CF00A9B756 /* MessagingAPI.xcframework in Frameworks */,
-				CF8FCF2B3001893FCAD5EE2C /* libPods-available_pods-JunoRide.a in Frameworks */,
-				846593F32E93A8CF00A9B756 /* Razorpay.xcframework in Frameworks */,
 				846593E82E93A8C100A9B756 /* ChatProvidersSDK.xcframework in Frameworks */,
 				846593EC2E93A8C100A9B756 /* CommonUISDK.xcframework in Frameworks */,
+				48D2B727C9F3E5944EF5CF47 /* Pods_available_pods_JunoRide.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,14 +115,12 @@
 		13B07FAE1A68108700A75B9A /* RoyoDriverApp */ = {
 			isa = PBXGroup;
 			children = (
+				536F3FE42F3DE12400B3709F /* AppDelegate.swift */,
 				8404E57D271EDFE4000D6E95 /* Plists */,
 				84CE2BC226E9E6B80066EEEE /* Fonts */,
 				84E4480A26E8C50700452095 /* Configs */,
-				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
-				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
-				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = RoyoDriverApp;
 			sourceTree = "<group>";
@@ -133,6 +128,7 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				536F3FE62F3DE44200B3709F /* Razorpay.xcframework */,
 				4EFD08A72DE43BEB00241B70 /* ChatProvidersSDK.xcframework */,
 				4EFD08A82DE43BEB00241B70 /* ChatSDK.xcframework */,
 				4EFD08A92DE43BEB00241B70 /* CommonUISDK.xcframework */,
@@ -141,7 +137,7 @@
 				4EFD08AC2DE43BEB00241B70 /* Razorpay.xcframework */,
 				4EFD08AD2DE43BEB00241B70 /* SDKConfigurations.xcframework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				0ACCF3DD97BE9324D774C4B7 /* libPods-available_pods-JunoRide.a */,
+				5D637925C33E3D084CA5FEE0 /* Pods_available_pods_JunoRide.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -167,7 +163,6 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				ED83E4042BEB687A00CFDE52 /* AppDelegate.mm */,
 				0E9552752B627F33007AA49A /* KhaleejTimes.entitlements */,
 				F49EB8FB28AE7085002888DE /* Resources-iPad */,
 				84961CAA27EB061C00B58C31 /* RoyoDriverApp-Bridging-Header.h */,
@@ -327,11 +322,13 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-available_pods-JunoRide/Pods-available_pods-JunoRide-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-available_pods-JunoRide/Pods-available_pods-JunoRide-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -401,9 +398,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-available_pods-JunoRide/Pods-available_pods-JunoRide-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-available_pods-JunoRide/Pods-available_pods-JunoRide-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -417,9 +418,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EFD088C2DE4373100241B70 /* AppDelegate.mm in Sources */,
+				536F3FE52F3DE12400B3709F /* AppDelegate.swift in Sources */,
 				4EFD088D2DE4373100241B70 /* RoyoDriverApp.swift in Sources */,
-				4EFD088E2DE4373100241B70 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,6 +556,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers/react/nativemodule/core",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers/platform/ios",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-Fabric/React_Fabric.framework/Headers/react/renderer/components/view/platform/cxx",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-NativeModulesApple/React_NativeModulesApple.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers/react/renderer/graphics/platform/ios",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD = "";
 				LDPLUSPLUS = "";
@@ -566,10 +577,7 @@
 				LIBRARY_SEARCH_PATHS = "$(SDKROOT)/usr/lib/swift\"$(inherited)\"";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
@@ -621,6 +629,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers/react/nativemodule/core",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers/platform/ios",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-Fabric/React_Fabric.framework/Headers/react/renderer/components/view/platform/cxx",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-NativeModulesApple/React_NativeModulesApple.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers/react/renderer/graphics/platform/ios",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD = "";
 				LDPLUSPLUS = "";
@@ -630,10 +649,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = "$(SDKROOT)/usr/lib/swift\"$(inherited)\"";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;

@@ -15,7 +15,7 @@ import {
   View,
 } from 'react-native';
 import ActionSheet from 'react-native-actionsheet';
-import DocumentPicker from 'react-native-document-picker';
+import { DocumentPicker } from '@react-native-documents/picker';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
 import { useSelector } from 'react-redux';
 import GradientButton from '../../../Components/GradientButton';
@@ -89,7 +89,7 @@ DeviceCountry.getCountryCode()
 export default function Signup({ route, navigation }) {
   const modalRef = useRef(null);
 
-  const {appData,  clientInfo, defaultLanguage } = useSelector(state => state?.initBoot);
+  const { appData, clientInfo, defaultLanguage } = useSelector(state => state?.initBoot);
   var dummyTags = '';
   const [state, setState] = useState({
     isLoading: false,
@@ -148,7 +148,7 @@ export default function Signup({ route, navigation }) {
     isCustomer: false,
     vehicleTypes: [],
     isVisible: false,
-    referalCode:''
+    referalCode: ''
   });
 
   const {
@@ -730,8 +730,8 @@ export default function Signup({ route, navigation }) {
 
   const getDoc = async (value, index) => {
     try {
-      const res = await DocumentPicker.pick({
-        type: [DocumentPicker.types.pdf],
+      const res = await pick({
+        type: ['application/pdf'],
       });
       console.log(res, 'res>res');
       let data = cloneDeep(addtionalPdfs);
@@ -1128,55 +1128,55 @@ export default function Signup({ route, navigation }) {
               </TouchableOpacity>
 
               {isTeams && (
-                  <ScrollView nestedScrollEnabled={true} style={{
-                    borderWidth: 1,
-                    borderColor: colors.borderColorB,
-                    backgroundColor: colors.white,
-                    width: '100%',
-                    paddingHorizontal: moderateScale(10),
-                    paddingVertical: moderateScale(5),
-                    shadowOffset: { width: 0, height: 1 },
-                    shadowOpacity: 0.1,
-                    minHeight: moderateScale(50),
-                    borderRadius: moderateScale(5),
-                    maxHeight: moderateScale(150),
-                  }}>
-                    {driverTeams?.length > 0 ? (
-                      <View>
-                        {driverTeams.map((itm, indx) => {
-                          return (
-                            <TouchableOpacity
-                              key={indx}
-                              onPress={() =>
-                                updateState({
-                                  selectedTeam: itm,
-                                  isTeams: false,
-                                })
-                              }
-                              style={{
-                                marginVertical: moderateScale(5),
-                              }}>
-                              <Text>{itm?.name}</Text>
-                            </TouchableOpacity>
-                          );
-                        })}
-                      </View>
-                    ) : (
-                      <View
+                <ScrollView nestedScrollEnabled={true} style={{
+                  borderWidth: 1,
+                  borderColor: colors.borderColorB,
+                  backgroundColor: colors.white,
+                  width: '100%',
+                  paddingHorizontal: moderateScale(10),
+                  paddingVertical: moderateScale(5),
+                  shadowOffset: { width: 0, height: 1 },
+                  shadowOpacity: 0.1,
+                  minHeight: moderateScale(50),
+                  borderRadius: moderateScale(5),
+                  maxHeight: moderateScale(150),
+                }}>
+                  {driverTeams?.length > 0 ? (
+                    <View>
+                      {driverTeams.map((itm, indx) => {
+                        return (
+                          <TouchableOpacity
+                            key={indx}
+                            onPress={() =>
+                              updateState({
+                                selectedTeam: itm,
+                                isTeams: false,
+                              })
+                            }
+                            style={{
+                              marginVertical: moderateScale(5),
+                            }}>
+                            <Text>{itm?.name}</Text>
+                          </TouchableOpacity>
+                        );
+                      })}
+                    </View>
+                  ) : (
+                    <View
+                      style={{
+                        ...styles.noDataFound,
+                        backgroundColor: colors.white,
+                      }}>
+                      <Text
                         style={{
-                          ...styles.noDataFound,
-                          backgroundColor: colors.white,
+                          fontFamily: fontFamily.medium,
+                          fontSize: moderateScale(13),
                         }}>
-                        <Text
-                          style={{
-                            fontFamily: fontFamily.medium,
-                            fontSize: moderateScale(13),
-                          }}>
-                          {strings.NODATAFOUND}
-                        </Text>
-                      </View>
-                    )}
-                  </ScrollView>
+                        {strings.NODATAFOUND}
+                      </Text>
+                    </View>
+                  )}
+                </ScrollView>
               )}
             </View>
 
@@ -1466,15 +1466,15 @@ export default function Signup({ route, navigation }) {
                 </View>
               </>
             ) : null}
-          <TextInputWithlabel
-                editable={true}
-                label={strings.REFERRAL_CODE}
-                value={referalCode}
-                // autoFocus={true}
-                onChangeText={text => updateState({ referalCode: text })}
-                labelStyle={styles.textInputlabel}
+            <TextInputWithlabel
+              editable={true}
+              label={strings.REFERRAL_CODE}
+              value={referalCode}
+              // autoFocus={true}
+              onChangeText={text => updateState({ referalCode: text })}
+              labelStyle={styles.textInputlabel}
 
-              />
+            />
             {/* { getEmployeeViewBasedOnClient(savedShortCode)} */}
 
             {!!(addtionalTextInputs && addtionalTextInputs?.length) &&

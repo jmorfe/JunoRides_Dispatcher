@@ -1,7 +1,7 @@
 import { callingCountries } from 'country-data';
 import { Alert, Animated, Image, BackHandler } from 'react-native';
 import { showMessage } from 'react-native-flash-message';
-import Geocoder from 'react-native-geocoder';
+import Geocoder from 'react-native-geocoding';
 import Geolocation from 'react-native-geolocation-service';
 import imagePath from '../constants/imagePath';
 import { Toast } from '../library/toastify-react-native';
