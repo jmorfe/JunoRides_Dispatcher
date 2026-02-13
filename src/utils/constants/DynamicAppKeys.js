@@ -2,13 +2,13 @@ import { Platform } from 'react-native';
 import { getBundleId } from 'react-native-device-info';
 
 const shortCodes = {
-  junoRide:'9ebcf7'
+  junoRide: '9ebcf7'
 };
 
 const appIds = {
   junoRide: Platform.select({
-    ios: 'com.junoRide.royodispatcher',
-    android: 'com.junoRide.royodispatcher',
+    ios: 'com.junoRide.driver',
+    android: 'com.junoRide.driver',
   }),
 };
 

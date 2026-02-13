@@ -2,18 +2,24 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CLIENT_ID</key>
+	<string>802586992069-dr06n00j9utas8bn2e0lhutt25ecr0ji.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.802586992069-dr06n00j9utas8bn2e0lhutt25ecr0ji</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>802586992069-051bf94ii4epv01ju2uibvgg0ifm1cdp.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
-	<string>AIzaSyAunleoUjveHUGqGbXJGlKWSltUdmQOd0s</string>
+	<string>AIzaSyCTS-o29TEB14g2TilvlDcH0UcELq3v1ds</string>
 	<key>GCM_SENDER_ID</key>
-	<string>223925181938</string>
+	<string>802586992069</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.junoRide.royodispatcher</string>
+	<string>com.juno.driver</string>
 	<key>PROJECT_ID</key>
-	<string>junoride-driver</string>
+	<string>juno-ride</string>
 	<key>STORAGE_BUCKET</key>
-	<string>junoride-driver.firebasestorage.app</string>
+	<string>juno-ride.firebasestorage.app</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +31,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:223925181938:ios:041adf7c43dcdecd205f6b</string>
+	<string>1:802586992069:ios:81d560aac0f8a5727e7fac</string>
 </dict>
 </plist>

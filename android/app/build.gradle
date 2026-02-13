@@ -149,10 +149,10 @@ android {
             minSdkVersion rootProject.ext.minSdkVersion
             targetSdkVersion rootProject.ext.targetSdkVersion
             // applicationIdSuffix ".royoorder"
-            applicationId "com.junoRide.royodispatcher"
+            applicationId "com.junoRide.driver"
             resValue "string",
             "app_name",
-            "JunoRide Dispatch"
+            "Juno Pilot"
         }
     }
 }

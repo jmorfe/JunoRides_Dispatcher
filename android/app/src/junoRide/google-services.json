@@ -1,26 +1,60 @@
 {
   "project_info": {
-    "project_number": "223925181938",
-    "project_id": "junoride-driver",
-    "storage_bucket": "junoride-driver.firebasestorage.app"
+    "project_number": "802586992069",
+    "project_id": "juno-ride",
+    "storage_bucket": "juno-ride.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:223925181938:android:fa689c3dcf872546205f6b",
+        "mobilesdk_app_id": "1:802586992069:android:510d625fbb550d6a7e7fac",
         "android_client_info": {
-          "package_name": "com.junoRide.royodispatcher"
+          "package_name": "com.junoRide.driver"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "802586992069-051bf94ii4epv01ju2uibvgg0ifm1cdp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.junoRide.driver",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "802586992069-1iddp3fab0mfj36gl6f035kv86ie93ln.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.junoRide.driver",
+            "certificate_hash": "6e35fcb20bda370ed0025e8c1df6109a03d09b6e"
+          }
+        },
+        {
+          "client_id": "802586992069-7jbs4hlrdu6fnkf5hmuos80hdf4qdgti.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.junoRide.driver",
+            "certificate_hash": "a88b766ebe08c535516406fab3741781973c03ad"
+          }
+        },
+        {
+          "client_id": "802586992069-tn97lou030r87mhoj3c9e49sfvqu8jn4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
-          "current_key": "AIzaSyCrDdBfMFOGxtF_gh0ucasPJM6PGFSH02c"
+          "current_key": "AIzaSyDsuAmrz2KdaAcCp2GwQ0_IXzg5DVy8te8"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "802586992069-tn97lou030r87mhoj3c9e49sfvqu8jn4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
