@@ -7,57 +7,57 @@ import {showError} from './helperFunctions';
 import {openAppSetting} from './openNativeApp';
 
 export const androidCameraPermission = () =>
-new Promise(async (resolve, reject) => {
-console.log(Platform.constants.Release,'');
-try {
-if (Platform.OS === "android" && parseInt(Platform.constants.Release) <= Number(5)) {
-if (parseInt(Platform.constants.Release) <= Number(13)) {
-const granted = await PermissionsAndroid.requestMultiple([
-PERMISSIONS.ANDROID.CAMERA,
-PERMISSIONS.ANDROID.READ_MEDIA_IMAGES
-]);
-if (
-granted["android.permission.CAMERA"] !== "granted" ||
-granted["android.permission.READ_MEDIA_IMAGES"] !== "granted"
-) {
-Alert.alert(
-"Alert",
-"Don't have permission to open camera",
-[{ text: "Okay" }],
-{ cancelable: true }
-);
-return resolve(false);
-// alert(strings.DO_NOT_HAVE_PERMISSIONS_TO_SELECT_IMAGE);
-}
-} else {
-const granted = await PermissionsAndroid.requestMultiple([
-PermissionsAndroid.PERMISSIONS.CAMERA,
-PermissionsAndroid.PERMISSIONS.WRITE_EXTERNAL_STORAGE,
-PermissionsAndroid.PERMISSIONS.READ_EXTERNAL_STORAGE,
-]);
-if (
-granted["android.permission.CAMERA"] !== "granted" ||
-granted["android.permission.WRITE_EXTERNAL_STORAGE"] !== "granted" ||
-granted["android.permission.READ_EXTERNAL_STORAGE"] !== "granted"
-) {
-Alert.alert(
-"Alert",
-"Don't have permission to open camera",
-[{ text: "Okay" }],
-{ cancelable: true }
-);
-return resolve(false);
-// alert(strings.DO_NOT_HAVE_PERMISSIONS_TO_SELECT_IMAGE);
-}
-}
-return resolve(true);
-}
+  new Promise(async (resolve, reject) => {
+    console.log(Platform.constants.Release, '');
+    try {
+      if (
+        Platform.OS === 'android' &&
+        parseInt(Platform.constants.Release) <= Number(5)
+      ) {
+        if (parseInt(Platform.constants.Release) <= Number(13)) {
+          const granted = await PermissionsAndroid.requestMultiple([
+            PERMISSIONS.ANDROID.CAMERA,
+          ]);
+          if (granted['android.permission.CAMERA'] !== 'granted') {
+            Alert.alert(
+              'Alert',
+              "Don't have permission to open camera",
+              [{text: 'Okay'}],
+              {cancelable: true},
+            );
+            return resolve(false);
+            // alert(strings.DO_NOT_HAVE_PERMISSIONS_TO_SELECT_IMAGE);
+          }
+        } else {
+          const granted = await PermissionsAndroid.requestMultiple([
+            PermissionsAndroid.PERMISSIONS.CAMERA,
+            PermissionsAndroid.PERMISSIONS.WRITE_EXTERNAL_STORAGE,
+            PermissionsAndroid.PERMISSIONS.READ_EXTERNAL_STORAGE,
+          ]);
+          if (
+            granted['android.permission.CAMERA'] !== 'granted' ||
+            granted['android.permission.WRITE_EXTERNAL_STORAGE'] !==
+              'granted' ||
+            granted['android.permission.READ_EXTERNAL_STORAGE'] !== 'granted'
+          ) {
+            Alert.alert(
+              'Alert',
+              "Don't have permission to open camera",
+              [{text: 'Okay'}],
+              {cancelable: true},
+            );
+            return resolve(false);
+            // alert(strings.DO_NOT_HAVE_PERMISSIONS_TO_SELECT_IMAGE);
+          }
+        }
+        return resolve(true);
+      }
 
-return resolve(true);
-} catch (error) {
-return resolve(false);
-}
-});
+      return resolve(true);
+    } catch (error) {
+      return resolve(false);
+    }
+  });
 
 // export const locationPermission = () => {
 //   if (Platform.OS === 'android' && Platform.Version > 22) {
@@ -68,7 +68,10 @@ return resolve(false);
 
 //   return Promise.resolve('granted');
 // };
-console.log(Platform.constants.Release, 'Platform.constants.ReleasePlatform.constants.Release')
+console.log(
+  Platform.constants.Release,
+  'Platform.constants.ReleasePlatform.constants.Release',
+);
 export const locationPermission = () =>
   new Promise(async (resolve, reject) => {
     if (Platform.OS === 'ios') {
@@ -83,15 +86,11 @@ export const locationPermission = () =>
       } catch (error) {
         return reject(error);
       }
-    }
-    else {
-     
-
-
+    } else {
       if (parseInt(Platform.constants.Release) <= Number(9)) {
         return PermissionsAndroid.request(
           PERMISSIONS.ANDROID.ACCESS_FINE_LOCATION &&
-          PERMISSIONS.ANDROID.ACCESS_COARSE_LOCATION
+            PERMISSIONS.ANDROID.ACCESS_COARSE_LOCATION,
         )
           .then(granted => {
             if (granted === PermissionsAndroid.RESULTS.GRANTED) {
@@ -108,24 +107,23 @@ export const locationPermission = () =>
             console.log('Ask Location permission error: ', error);
             return reject(error);
           });
-      } else if(Number(Platform.constants.Release) >=Number(10)) {
+      } else if (Number(Platform.constants.Release) >= Number(10)) {
         return PermissionsAndroid.request(
           PermissionsAndroid.PERMISSIONS.ACCESS_BACKGROUND_LOCATION,
           {
             title: 'Permission Requires',
-            message: 'collects location data in background and foreground mode to track the order delivery location and estimate delivery time for the end customer',
+            message:
+              'collects location data in background and foreground mode to track the order delivery location and estimate delivery time for the end customer',
             buttonPositive: 'Ok',
             buttonNegative: 'Cancel',
-            
-          }
-          [
-            {
-              text: "Cancel",
-              onPress: () => console.log("Cancel Pressed"),
-              style: "cancel"
+          }[
+            ({
+              text: 'Cancel',
+              onPress: () => console.log('Cancel Pressed'),
+              style: 'cancel',
             },
-            { text: "OK", onPress: () => console.log("OK Pressed") }
-          ]
+            {text: 'OK', onPress: () => console.log('OK Pressed')})
+          ],
         )
           .then(granted => {
             if (granted === PermissionsAndroid.RESULTS.GRANTED) {
@@ -143,12 +141,10 @@ export const locationPermission = () =>
             return reject(error);
           });
       }
-
-
     }
   });
 
-  export const chekLocationPermission = (showAlert = true) =>
+export const chekLocationPermission = (showAlert = true) =>
   new Promise(async (resolve, reject) => {
     try {
       check(
@@ -156,7 +152,7 @@ export const locationPermission = () =>
           ? PERMISSIONS.IOS.LOCATION_WHEN_IN_USE
           : PERMISSIONS.ANDROID.ACCESS_FINE_LOCATION,
       )
-        .then((result) => {
+        .then(result => {
           switch (result) {
             case RESULTS.UNAVAILABLE:
               showError(strings.LOCATION_UNAVAILABLE);
@@ -167,10 +163,10 @@ export const locationPermission = () =>
                   ? PERMISSIONS.IOS.LOCATION_WHEN_IN_USE
                   : PERMISSIONS.ANDROID.ACCESS_FINE_LOCATION,
               )
-                .then((result) => {
+                .then(result => {
                   return resolve(result);
                 })
-                .catch((error) => {
+                .catch(error => {
                   return reject(error);
                 });
 
@@ -199,7 +195,7 @@ export const locationPermission = () =>
               return resolve(result);
           }
         })
-        .catch((error) => {
+        .catch(error => {
           console.log('errorrrrrrrrr', error);
           return reject(error);
         });
