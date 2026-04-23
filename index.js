@@ -10,6 +10,7 @@ import { navigate } from './src/navigation/NavigationService';
 import navigationStrings from './src/navigation/navigationStrings';
 import { showhideNotificationModal } from './src/utils/helperFunctions';
 import { gestureHandlerRootHOC } from 'react-native-gesture-handler';
+
 if (__DEV__) {
   require("./ReactotronConfig");
 }

@@ -14,7 +14,7 @@ import {
 } from 'react-native';
 import ActionSheet from 'react-native-actionsheet';
 import Communications from 'react-native-communications';
-import MapView from 'react-native-maps'; // import {createOpenLink} from '../../utils/CreateMapLinks';
+import MapView, { PROVIDER_GOOGLE } from 'react-native-maps'; // import {createOpenLink} from '../../utils/CreateMapLinks';
 import { useSelector } from 'react-redux';
 import Header from '../../Components/Header';
 import { loaderOne } from '../../Components/Loaders/AnimatedLoaderFiles';
@@ -365,7 +365,7 @@ export default function TaskDetail({ route, navigation }) {
     return (
       <MapView
         ref={mapRef}
-        // provider={PROVIDER_GOOGLE} // remove if not using Google Maps
+        provider={PROVIDER_GOOGLE}
         style={styles.map}
         region={region}
         initialRegion={region}

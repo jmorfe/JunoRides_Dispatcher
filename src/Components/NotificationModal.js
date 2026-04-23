@@ -14,7 +14,7 @@ import {
   Linking,
   ActivityIndicator,
 } from 'react-native';
-import MapView from 'react-native-maps';
+import MapView, { PROVIDER_GOOGLE } from 'react-native-maps';
 import Modal from 'react-native-modal';
 import { useSelector } from 'react-redux';
 import imagePath from '../constants/imagePath';
@@ -128,7 +128,7 @@ const NotificationModal = () => {
     if (data && data?.notificationType != 'UPDATED') {
       return (
         <MapView
-          //   provider={PROVIDER_GOOGLE} // remove if not using Google Maps
+          provider={PROVIDER_GOOGLE}
           style={{
             ...styles.map,
             height:
