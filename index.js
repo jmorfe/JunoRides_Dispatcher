@@ -14,6 +14,7 @@ import { gestureHandlerRootHOC } from 'react-native-gesture-handler';
 if (__DEV__) {
   require("./ReactotronConfig");
 }
+
 // Register background handler
 messaging().setBackgroundMessageHandler(async remoteMessage => {
   console.log('Message handled in the background!', remoteMessage);

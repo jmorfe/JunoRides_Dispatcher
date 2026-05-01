@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0447F8786970E51497284E5C /* Pods_available_pods_JunoRide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA9EC5216549ED30DBE56EB3 /* Pods_available_pods_JunoRide.framework */; };
 		4EFD088D2DE4373100241B70 /* RoyoDriverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84961AE127EB05D300B58C31 /* RoyoDriverApp.swift */; };
 		4EFD08912DE4373100241B70 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C2093B274279C800C82ABC /* Images.xcassets */; };
 		4EFD08922DE4373100241B70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
@@ -22,6 +21,7 @@
 		5334512D2F3DE921003E26A0 /* Razorpay.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFD08AC2DE43BEB00241B70 /* Razorpay.xcframework */; };
 		5334512E2F3DE921003E26A0 /* Razorpay.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFD08AC2DE43BEB00241B70 /* Razorpay.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		536F3FE52F3DE12400B3709F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536F3FE42F3DE12400B3709F /* AppDelegate.swift */; };
+		5E5E81A6B4C7D05D6565EE3B /* Pods_available_pods_JunoRide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63B55F47E4D538688560CDE /* Pods_available_pods_JunoRide.framework */; };
 		8408A9532E93A17400002574 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8408A9512E93A15100002574 /* GoogleService-Info.plist */; };
 		846593E82E93A8C100A9B756 /* ChatProvidersSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFD08A72DE43BEB00241B70 /* ChatProvidersSDK.xcframework */; };
 		846593E92E93A8C100A9B756 /* ChatProvidersSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFD08A72DE43BEB00241B70 /* ChatProvidersSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -58,9 +58,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		08551165BCB5EFD8740961C9 /* Pods-available_pods-JunoRide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-JunoRide.release.xcconfig"; path = "Target Support Files/Pods-available_pods-JunoRide/Pods-available_pods-JunoRide.release.xcconfig"; sourceTree = "<group>"; };
 		0E9552752B627F33007AA49A /* KhaleejTimes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KhaleejTimes.entitlements; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RoyoDriverApp/Images.xcassets; sourceTree = "<group>"; };
-		3F483018ED37D36CA0749616 /* Pods-available_pods-JunoRide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-JunoRide.release.xcconfig"; path = "Target Support Files/Pods-available_pods-JunoRide/Pods-available_pods-JunoRide.release.xcconfig"; sourceTree = "<group>"; };
 		4EF8FD0C2C89DAEF001B7A88 /* JunoRide(Development).xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "JunoRide(Development).xcconfig"; sourceTree = "<group>"; };
 		4EF8FD0E2C89DB11001B7A88 /* JunoRide(Production).xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "JunoRide(Production).xcconfig"; sourceTree = "<group>"; };
 		4EF8FD122C89DD65001B7A88 /* ClaInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ClaInfo.plist; sourceTree = "<group>"; };
@@ -87,8 +87,8 @@
 		84CE2BC426E9E6D20066EEEE /* campton-light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "campton-light.ttf"; sourceTree = "<group>"; };
 		84CE2BC526E9E6D20066EEEE /* campton-book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "campton-book.ttf"; sourceTree = "<group>"; };
 		84CE2BC626E9E6D20066EEEE /* campton-medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "campton-medium.ttf"; sourceTree = "<group>"; };
-		8DFF4D9AD628F84F25C37B5D /* Pods-available_pods-JunoRide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-JunoRide.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-JunoRide/Pods-available_pods-JunoRide.debug.xcconfig"; sourceTree = "<group>"; };
-		CA9EC5216549ED30DBE56EB3 /* Pods_available_pods_JunoRide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_available_pods_JunoRide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63B55F47E4D538688560CDE /* Pods_available_pods_JunoRide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_available_pods_JunoRide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1DDACDAA3A72AA9DD4D1213 /* Pods-available_pods-JunoRide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-JunoRide.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-JunoRide/Pods-available_pods-JunoRide.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F3951B57E911D51C9FBE6364 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,7 +105,7 @@
 				846593EF2E93A8CF00A9B756 /* MessagingAPI.xcframework in Frameworks */,
 				846593E82E93A8C100A9B756 /* ChatProvidersSDK.xcframework in Frameworks */,
 				846593EC2E93A8C100A9B756 /* CommonUISDK.xcframework in Frameworks */,
-				0447F8786970E51497284E5C /* Pods_available_pods_JunoRide.framework in Frameworks */,
+				5E5E81A6B4C7D05D6565EE3B /* Pods_available_pods_JunoRide.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +137,7 @@
 				4EFD08AC2DE43BEB00241B70 /* Razorpay.xcframework */,
 				4EFD08AD2DE43BEB00241B70 /* SDKConfigurations.xcframework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				CA9EC5216549ED30DBE56EB3 /* Pods_available_pods_JunoRide.framework */,
+				B63B55F47E4D538688560CDE /* Pods_available_pods_JunoRide.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -229,8 +229,8 @@
 		CF572E3A7184357FCBFC05E9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8DFF4D9AD628F84F25C37B5D /* Pods-available_pods-JunoRide.debug.xcconfig */,
-				3F483018ED37D36CA0749616 /* Pods-available_pods-JunoRide.release.xcconfig */,
+				E1DDACDAA3A72AA9DD4D1213 /* Pods-available_pods-JunoRide.debug.xcconfig */,
+				08551165BCB5EFD8740961C9 /* Pods-available_pods-JunoRide.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -249,15 +249,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EFD089E2DE4373100241B70 /* Build configuration list for PBXNativeTarget "JunoRide" */;
 			buildPhases = (
-				D981DEE569FF44EB9E1314B7 /* [CP] Check Pods Manifest.lock */,
+				0193E6A989A66B18AF9DBCFE /* [CP] Check Pods Manifest.lock */,
 				4EFD088A2DE4373100241B70 /* Start Packager */,
 				4EFD088B2DE4373100241B70 /* Sources */,
 				4EFD088F2DE4373100241B70 /* Frameworks */,
 				4EFD08902DE4373100241B70 /* Resources */,
 				4EFD089D2DE4373100241B70 /* Bundle React Native code and images */,
 				846593EE2E93A8C200A9B756 /* Embed Frameworks */,
-				DDCC76B4C54719098BEE45C8 /* [CP] Embed Pods Frameworks */,
-				B623EFDE308D89583BDA8D54 /* [CP] Copy Pods Resources */,
+				FA20E033ED64DA0BBADEC167 /* [CP] Embed Pods Frameworks */,
+				C70BB098A5340586D67ECBC4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -316,6 +316,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0193E6A989A66B18AF9DBCFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-available_pods-JunoRide-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		4EFD088A2DE4373100241B70 /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -349,7 +371,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=/Users/codebrew/.nvm/versions/node/v20.20.0/bin/node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		B623EFDE308D89583BDA8D54 /* [CP] Copy Pods Resources */ = {
+		C70BB098A5340586D67ECBC4 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -368,29 +390,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-available_pods-JunoRide/Pods-available_pods-JunoRide-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D981DEE569FF44EB9E1314B7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-available_pods-JunoRide-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DDCC76B4C54719098BEE45C8 /* [CP] Embed Pods Frameworks */ = {
+		FA20E033ED64DA0BBADEC167 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
