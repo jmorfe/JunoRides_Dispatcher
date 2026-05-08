@@ -3,10 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FCE3AA42FADBDC300061CD0 /* File.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2FCE3AA32FADBDC300061CD0 /* File.txt */; };
+		2FCE3AA52FADBFA700061CD0 /* ChatProvidersSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFD08A72DE43BEB00241B70 /* ChatProvidersSDK.xcframework */; };
+		2FCE3AA62FADBFA700061CD0 /* ChatProvidersSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFD08A72DE43BEB00241B70 /* ChatProvidersSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2FCE3AA72FADBFA700061CD0 /* ChatSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFD08A82DE43BEB00241B70 /* ChatSDK.xcframework */; };
+		2FCE3AA82FADBFA700061CD0 /* ChatSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFD08A82DE43BEB00241B70 /* ChatSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2FCE3AA92FADBFA700061CD0 /* CommonUISDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFD08A92DE43BEB00241B70 /* CommonUISDK.xcframework */; };
+		2FCE3AAA2FADBFA700061CD0 /* CommonUISDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFD08A92DE43BEB00241B70 /* CommonUISDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2FCE3AAB2FADBFA700061CD0 /* MessagingAPI.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFD08AA2DE43BEB00241B70 /* MessagingAPI.xcframework */; };
+		2FCE3AAC2FADBFA700061CD0 /* MessagingAPI.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFD08AA2DE43BEB00241B70 /* MessagingAPI.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2FCE3AAD2FADBFA700061CD0 /* MessagingSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFD08AB2DE43BEB00241B70 /* MessagingSDK.xcframework */; };
+		2FCE3AAE2FADBFA700061CD0 /* MessagingSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFD08AB2DE43BEB00241B70 /* MessagingSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2FCE3AAF2FADBFA700061CD0 /* SDKConfigurations.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFD08AD2DE43BEB00241B70 /* SDKConfigurations.xcframework */; };
+		2FCE3AB02FADBFA700061CD0 /* SDKConfigurations.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFD08AD2DE43BEB00241B70 /* SDKConfigurations.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4EFD088D2DE4373100241B70 /* RoyoDriverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84961AE127EB05D300B58C31 /* RoyoDriverApp.swift */; };
 		4EFD08912DE4373100241B70 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C2093B274279C800C82ABC /* Images.xcassets */; };
 		4EFD08922DE4373100241B70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
@@ -18,39 +31,23 @@
 		4EFD089B2DE4373100241B70 /* campton-semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84CE2BC326E9E6D20066EEEE /* campton-semibold.ttf */; };
 		4EFD089C2DE4373100241B70 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 7CB99027340585E828A13C30 /* PrivacyInfo.xcprivacy */; };
 		4EFD08A62DE43B7900241B70 /* JunoRideInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EFD08A42DE43B7900241B70 /* JunoRideInfo.plist */; };
-		5334512D2F3DE921003E26A0 /* Razorpay.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFD08AC2DE43BEB00241B70 /* Razorpay.xcframework */; };
-		5334512E2F3DE921003E26A0 /* Razorpay.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFD08AC2DE43BEB00241B70 /* Razorpay.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		536F3FE52F3DE12400B3709F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536F3FE42F3DE12400B3709F /* AppDelegate.swift */; };
-		5E5E81A6B4C7D05D6565EE3B /* Pods_available_pods_JunoRide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63B55F47E4D538688560CDE /* Pods_available_pods_JunoRide.framework */; };
 		8408A9532E93A17400002574 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8408A9512E93A15100002574 /* GoogleService-Info.plist */; };
-		846593E82E93A8C100A9B756 /* ChatProvidersSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFD08A72DE43BEB00241B70 /* ChatProvidersSDK.xcframework */; };
-		846593E92E93A8C100A9B756 /* ChatProvidersSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFD08A72DE43BEB00241B70 /* ChatProvidersSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		846593EA2E93A8C100A9B756 /* ChatSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFD08A82DE43BEB00241B70 /* ChatSDK.xcframework */; };
-		846593EB2E93A8C100A9B756 /* ChatSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFD08A82DE43BEB00241B70 /* ChatSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		846593EC2E93A8C100A9B756 /* CommonUISDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFD08A92DE43BEB00241B70 /* CommonUISDK.xcframework */; };
-		846593ED2E93A8C100A9B756 /* CommonUISDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFD08A92DE43BEB00241B70 /* CommonUISDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		846593EF2E93A8CF00A9B756 /* MessagingAPI.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFD08AA2DE43BEB00241B70 /* MessagingAPI.xcframework */; };
-		846593F02E93A8CF00A9B756 /* MessagingAPI.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFD08AA2DE43BEB00241B70 /* MessagingAPI.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		846593F12E93A8CF00A9B756 /* MessagingSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFD08AB2DE43BEB00241B70 /* MessagingSDK.xcframework */; };
-		846593F22E93A8CF00A9B756 /* MessagingSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFD08AB2DE43BEB00241B70 /* MessagingSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		846593F52E93A8CF00A9B756 /* SDKConfigurations.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFD08AD2DE43BEB00241B70 /* SDKConfigurations.xcframework */; };
-		846593F62E93A8CF00A9B756 /* SDKConfigurations.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFD08AD2DE43BEB00241B70 /* SDKConfigurations.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		846593EE2E93A8C200A9B756 /* Embed Frameworks */ = {
+		2FCE3AB12FADBFA700061CD0 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				846593F22E93A8CF00A9B756 /* MessagingSDK.xcframework in Embed Frameworks */,
-				846593EB2E93A8C100A9B756 /* ChatSDK.xcframework in Embed Frameworks */,
-				846593ED2E93A8C100A9B756 /* CommonUISDK.xcframework in Embed Frameworks */,
-				846593E92E93A8C100A9B756 /* ChatProvidersSDK.xcframework in Embed Frameworks */,
-				5334512E2F3DE921003E26A0 /* Razorpay.xcframework in Embed Frameworks */,
-				846593F62E93A8CF00A9B756 /* SDKConfigurations.xcframework in Embed Frameworks */,
-				846593F02E93A8CF00A9B756 /* MessagingAPI.xcframework in Embed Frameworks */,
+				2FCE3AAE2FADBFA700061CD0 /* MessagingSDK.xcframework in Embed Frameworks */,
+				2FCE3AA82FADBFA700061CD0 /* ChatSDK.xcframework in Embed Frameworks */,
+				2FCE3AAA2FADBFA700061CD0 /* CommonUISDK.xcframework in Embed Frameworks */,
+				2FCE3AB02FADBFA700061CD0 /* SDKConfigurations.xcframework in Embed Frameworks */,
+				2FCE3AA62FADBFA700061CD0 /* ChatProvidersSDK.xcframework in Embed Frameworks */,
+				2FCE3AAC2FADBFA700061CD0 /* MessagingAPI.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -58,9 +55,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		08551165BCB5EFD8740961C9 /* Pods-available_pods-JunoRide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-JunoRide.release.xcconfig"; path = "Target Support Files/Pods-available_pods-JunoRide/Pods-available_pods-JunoRide.release.xcconfig"; sourceTree = "<group>"; };
 		0E9552752B627F33007AA49A /* KhaleejTimes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KhaleejTimes.entitlements; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RoyoDriverApp/Images.xcassets; sourceTree = "<group>"; };
+		2FCE3AA32FADBDC300061CD0 /* File.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = File.txt; sourceTree = "<group>"; };
+		303E2AA36DC35378E2EBC474 /* Pods_available_pods_JunoRide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_available_pods_JunoRide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EF8FD0C2C89DAEF001B7A88 /* JunoRide(Development).xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "JunoRide(Development).xcconfig"; sourceTree = "<group>"; };
 		4EF8FD0E2C89DB11001B7A88 /* JunoRide(Production).xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "JunoRide(Production).xcconfig"; sourceTree = "<group>"; };
 		4EF8FD122C89DD65001B7A88 /* ClaInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ClaInfo.plist; sourceTree = "<group>"; };
@@ -71,7 +69,7 @@
 		4EFD08A92DE43BEB00241B70 /* CommonUISDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CommonUISDK.xcframework; path = Pods/ZendeskCommonUISDK/CommonUISDK.xcframework; sourceTree = "<group>"; };
 		4EFD08AA2DE43BEB00241B70 /* MessagingAPI.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MessagingAPI.xcframework; path = Pods/ZendeskMessagingAPISDK/MessagingAPI.xcframework; sourceTree = "<group>"; };
 		4EFD08AB2DE43BEB00241B70 /* MessagingSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MessagingSDK.xcframework; path = Pods/ZendeskMessagingSDK/MessagingSDK.xcframework; sourceTree = "<group>"; };
-		4EFD08AC2DE43BEB00241B70 /* Razorpay.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:3J5MJT3GNL:Razorpay Software Private Limited"; lastKnownFileType = wrapper.xcframework; name = Razorpay.xcframework; path = "Pods/razorpay-pod/Pod/Razorpay.xcframework"; sourceTree = "<group>"; };
+		4EFD08AC2DE43BEB00241B70 /* RazorpayStandard.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RazorpayStandard.xcframework; path = "Pods/razorpay-pod/Pod/RazorpayStandard.xcframework"; sourceTree = "<group>"; };
 		4EFD08AD2DE43BEB00241B70 /* SDKConfigurations.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SDKConfigurations.xcframework; path = Pods/ZendeskSDKConfigurationsSDK/SDKConfigurations.xcframework; sourceTree = "<group>"; };
 		536F3FE42F3DE12400B3709F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		536F3FE62F3DE44200B3709F /* Razorpay.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Razorpay.xcframework; path = "Pods/razorpay-core-pod/Pod/core/Razorpay.xcframework"; sourceTree = "<group>"; };
@@ -87,8 +85,8 @@
 		84CE2BC426E9E6D20066EEEE /* campton-light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "campton-light.ttf"; sourceTree = "<group>"; };
 		84CE2BC526E9E6D20066EEEE /* campton-book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "campton-book.ttf"; sourceTree = "<group>"; };
 		84CE2BC626E9E6D20066EEEE /* campton-medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "campton-medium.ttf"; sourceTree = "<group>"; };
-		B63B55F47E4D538688560CDE /* Pods_available_pods_JunoRide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_available_pods_JunoRide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1DDACDAA3A72AA9DD4D1213 /* Pods-available_pods-JunoRide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-JunoRide.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-JunoRide/Pods-available_pods-JunoRide.debug.xcconfig"; sourceTree = "<group>"; };
+		BBA2B76FCB9DD697267CFAE0 /* Pods-available_pods-JunoRide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-JunoRide.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-JunoRide/Pods-available_pods-JunoRide.debug.xcconfig"; sourceTree = "<group>"; };
+		D971EFBD237BD659F494D32C /* Pods-available_pods-JunoRide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-JunoRide.release.xcconfig"; path = "Target Support Files/Pods-available_pods-JunoRide/Pods-available_pods-JunoRide.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F3951B57E911D51C9FBE6364 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -98,14 +96,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				846593EA2E93A8C100A9B756 /* ChatSDK.xcframework in Frameworks */,
-				846593F52E93A8CF00A9B756 /* SDKConfigurations.xcframework in Frameworks */,
-				846593F12E93A8CF00A9B756 /* MessagingSDK.xcframework in Frameworks */,
-				5334512D2F3DE921003E26A0 /* Razorpay.xcframework in Frameworks */,
-				846593EF2E93A8CF00A9B756 /* MessagingAPI.xcframework in Frameworks */,
-				846593E82E93A8C100A9B756 /* ChatProvidersSDK.xcframework in Frameworks */,
-				846593EC2E93A8C100A9B756 /* CommonUISDK.xcframework in Frameworks */,
-				5E5E81A6B4C7D05D6565EE3B /* Pods_available_pods_JunoRide.framework in Frameworks */,
+				2FCE3AAD2FADBFA700061CD0 /* MessagingSDK.xcframework in Frameworks */,
+				2FCE3AA72FADBFA700061CD0 /* ChatSDK.xcframework in Frameworks */,
+				2FCE3AA92FADBFA700061CD0 /* CommonUISDK.xcframework in Frameworks */,
+				2FCE3AAF2FADBFA700061CD0 /* SDKConfigurations.xcframework in Frameworks */,
+				2FCE3AA52FADBFA700061CD0 /* ChatProvidersSDK.xcframework in Frameworks */,
+				2FCE3AAB2FADBFA700061CD0 /* MessagingAPI.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,10 +130,10 @@
 				4EFD08A92DE43BEB00241B70 /* CommonUISDK.xcframework */,
 				4EFD08AA2DE43BEB00241B70 /* MessagingAPI.xcframework */,
 				4EFD08AB2DE43BEB00241B70 /* MessagingSDK.xcframework */,
-				4EFD08AC2DE43BEB00241B70 /* Razorpay.xcframework */,
+				4EFD08AC2DE43BEB00241B70 /* RazorpayStandard.xcframework */,
 				4EFD08AD2DE43BEB00241B70 /* SDKConfigurations.xcframework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				B63B55F47E4D538688560CDE /* Pods_available_pods_JunoRide.framework */,
+				303E2AA36DC35378E2EBC474 /* Pods_available_pods_JunoRide.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -163,6 +159,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				2FCE3AA32FADBDC300061CD0 /* File.txt */,
 				0E9552752B627F33007AA49A /* KhaleejTimes.entitlements */,
 				F49EB8FB28AE7085002888DE /* Resources-iPad */,
 				84961CAA27EB061C00B58C31 /* RoyoDriverApp-Bridging-Header.h */,
@@ -229,8 +226,8 @@
 		CF572E3A7184357FCBFC05E9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E1DDACDAA3A72AA9DD4D1213 /* Pods-available_pods-JunoRide.debug.xcconfig */,
-				08551165BCB5EFD8740961C9 /* Pods-available_pods-JunoRide.release.xcconfig */,
+				BBA2B76FCB9DD697267CFAE0 /* Pods-available_pods-JunoRide.debug.xcconfig */,
+				D971EFBD237BD659F494D32C /* Pods-available_pods-JunoRide.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -249,15 +246,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EFD089E2DE4373100241B70 /* Build configuration list for PBXNativeTarget "JunoRide" */;
 			buildPhases = (
-				0193E6A989A66B18AF9DBCFE /* [CP] Check Pods Manifest.lock */,
+				619EA9A47B0B320258695144 /* [CP] Check Pods Manifest.lock */,
 				4EFD088A2DE4373100241B70 /* Start Packager */,
 				4EFD088B2DE4373100241B70 /* Sources */,
 				4EFD088F2DE4373100241B70 /* Frameworks */,
 				4EFD08902DE4373100241B70 /* Resources */,
 				4EFD089D2DE4373100241B70 /* Bundle React Native code and images */,
-				846593EE2E93A8C200A9B756 /* Embed Frameworks */,
-				FA20E033ED64DA0BBADEC167 /* [CP] Embed Pods Frameworks */,
-				C70BB098A5340586D67ECBC4 /* [CP] Copy Pods Resources */,
+				32F27F78309A16935932150B /* [CP] Embed Pods Frameworks */,
+				E1B82C2EE36A8E1CA965CAD4 /* [CP] Copy Pods Resources */,
+				2FCE3AB12FADBFA700061CD0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -301,6 +298,7 @@
 			files = (
 				8408A9532E93A17400002574 /* GoogleService-Info.plist in Resources */,
 				4EFD08A62DE43B7900241B70 /* JunoRideInfo.plist in Resources */,
+				2FCE3AA42FADBDC300061CD0 /* File.txt in Resources */,
 				4EFD08912DE4373100241B70 /* Images.xcassets in Resources */,
 				4EFD08922DE4373100241B70 /* LaunchScreen.storyboard in Resources */,
 				4EFD08942DE4373100241B70 /* Images.xcassets in Resources */,
@@ -316,7 +314,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0193E6A989A66B18AF9DBCFE /* [CP] Check Pods Manifest.lock */ = {
+		32F27F78309A16935932150B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -324,18 +322,15 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-available_pods-JunoRide-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-available_pods-JunoRide/Pods-available_pods-JunoRide-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4EFD088A2DE4373100241B70 /* Start Packager */ = {
@@ -369,9 +364,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -e\n\nexport NODE_BINARY=/Users/codebrew/.nvm/versions/node/v20.20.0/bin/node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+			shellScript = "set -e\n\nexport NODE_BINARY=/Users/pallavisaini/.nvm/versions/node/v20.19.4/bin/node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		C70BB098A5340586D67ECBC4 /* [CP] Copy Pods Resources */ = {
+		619EA9A47B0B320258695144 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-available_pods-JunoRide-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1B82C2EE36A8E1CA965CAD4 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -388,25 +405,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-available_pods-JunoRide/Pods-available_pods-JunoRide-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FA20E033ED64DA0BBADEC167 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-available_pods-JunoRide/Pods-available_pods-JunoRide-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -432,11 +430,9 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = RoyoDriverApp/RoyoDriverAppRelease.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "$(PROJECT_BUILD_NUMBER)";
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 7CRUVQ38A5;
+				DEVELOPMENT_TEAM = 7CRUVQ38A5;
 				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				HEADER_SEARCH_PATHS = "$(inherited)";
@@ -460,7 +456,6 @@
 				PROJECT_NAME = "${PROJECT_NAME}";
 				PROJECT_PLIST = "$(PROJECT_PLIST)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Junoride Driver";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -481,11 +476,9 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = RoyoDriverApp/RoyoDriverAppRelease.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "$(PROJECT_BUILD_NUMBER)";
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 7CRUVQ38A5;
+				DEVELOPMENT_TEAM = 7CRUVQ38A5;
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/Plists/$(PROJECT_PLIST).plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -507,7 +500,6 @@
 				PROJECT_NAME = "${PROJECT_NAME}";
 				PROJECT_PLIST = "$(PROJECT_PLIST)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Junoride Driver";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;

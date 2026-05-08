@@ -54,7 +54,8 @@ abstract_target 'available_pods' do
   use_react_native!(
     :path => config[:reactNativePath],
     # An absolute path to your application root.
-    :app_path => "#{Pod::Config.instance.installation_root}/.."
+    :app_path => "#{Pod::Config.instance.installation_root}/..",
+    :new_arch_enabled => false
   )
 
   # pod 'react-native-google-maps', :path => rn_maps_path
@@ -63,7 +64,7 @@ abstract_target 'available_pods' do
   pod 'react-native-date-picker', :path => '../node_modules/react-native-date-picker'
   pod 'ZendeskChatSDK'
   pod 'ZendeskChatProvidersSDK'
-  pod 'razorpay-pod', '1.3.10'
+  pod 'razorpay-pod', '1.5.0'
 
   
 #JunoRide Target
@@ -78,9 +79,31 @@ post_install do |installer|
     :mac_catalyst_enabled => false,
     # :ccache_enabled => true
   )
+  # Patch fmt base.h so externally-defined FMT_USE_CONSTEVAL=0 is not overridden
+  # by the library's own detection chain (fmt 11 doesn't guard with #ifndef).
+  fmt_base_h = "#{installer.sandbox.root}/fmt/include/fmt/base.h"
+  if File.exist?(fmt_base_h)
+    content = File.read(fmt_base_h)
+    patch_marker = "// [PATCHED] FMT_USE_CONSTEVAL guard"
+    unless content.include?(patch_marker)
+      old_line = "// Detect consteval, C++20 constexpr extensions and std::is_constant_evaluated.\n#if !defined(__cpp_lib_is_constant_evaluated)"
+      new_line  = "// Detect consteval, C++20 constexpr extensions and std::is_constant_evaluated.\n" + patch_marker + "\n#ifndef FMT_USE_CONSTEVAL\n#if !defined(__cpp_lib_is_constant_evaluated)"
+      content = content.sub(old_line, new_line)
+      old_end  = "#if FMT_USE_CONSTEVAL\n#  define FMT_CONSTEVAL consteval"
+      new_end  = "#endif  // ifndef FMT_USE_CONSTEVAL\n#if FMT_USE_CONSTEVAL\n#  define FMT_CONSTEVAL consteval"
+      content = content.sub(old_end, new_end)
+      File.chmod(0644, fmt_base_h)
+      File.write(fmt_base_h, content)
+    end
+  end
+
   installer.pods_project.targets.each do |target|
     target.build_configurations.each do |config|
       config.build_settings['CLANG_CXX_LANGUAGE_STANDARD'] = 'c++20'
+      if target.name == 'fmt'
+        config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] ||= ['$(inherited)']
+        config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] << 'FMT_USE_CONSTEVAL=0'
+      end
     end
   end
   installer.pods_project.build_configurations.each do |config|

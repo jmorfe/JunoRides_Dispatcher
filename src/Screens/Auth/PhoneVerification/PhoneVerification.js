@@ -31,7 +31,7 @@ import fontFamily from '../../../styles/fontFamily';
 import {getItem, setUserData} from '../../../utils/utils';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import {requestUserPermission} from '../../../utils/notificationServices';
-import RNOtpVerify from 'react-native-otp-verify';
+import RNOtpVerify from '../../../utils/otpVerify';
 import useInterval from '../../../utils/useInterval';
 import {clockRunning} from 'react-native-reanimated';
 import { saveUserData, setAttributeFormInfo } from '../../../redux/actions/auth';

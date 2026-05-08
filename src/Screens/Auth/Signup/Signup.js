@@ -72,7 +72,7 @@ import DeviceCountry, {
 import SmoothPinCodeInput from 'react-native-smooth-pincode-input';
 import ButtonWithLoader from '../../../Components/ButtonWithLoader';
 import ModalComponent from '../../../Components/ModalComponent';
-import RNOtpVerify from 'react-native-otp-verify';
+import RNOtpVerify from '../../../utils/otpVerify';
 import BottomSheetForm from '../../../Components/BottomSheetForm';
 
 var getPhonesCallingCodeAndCountryData = null;
