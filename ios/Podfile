@@ -55,7 +55,7 @@ abstract_target 'available_pods' do
     :path => config[:reactNativePath],
     # An absolute path to your application root.
     :app_path => "#{Pod::Config.instance.installation_root}/..",
-    :new_arch_enabled => false
+    :new_arch_enabled => true
   )
 
   # pod 'react-native-google-maps', :path => rn_maps_path
