@@ -70,7 +70,11 @@ const ShowNotificationForeground = props => {
         };
       }
 
-      await notifee.displayNotification(displayNotificationData);
+      try {
+        await notifee.displayNotification(displayNotificationData);
+      } catch (e) {
+        console.log('notifee displayNotification error', e);
+      }
       if (
         Platform.OS == 'android' &&
         notification?.android?.sound == 'notification'

@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>1062390241494-fnb58vs5vgkvso74rv21dsfmfbhe6ce7.apps.googleusercontent.com</string>
+	<string>900254912246-7pkbcjs8jqpn9ff9tssi8egqot8s0nt6.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.1062390241494-fnb58vs5vgkvso74rv21dsfmfbhe6ce7</string>
+	<string>com.googleusercontent.apps.900254912246-7pkbcjs8jqpn9ff9tssi8egqot8s0nt6</string>
 	<key>API_KEY</key>
-	<string>AIzaSyB8qpfB0HReDvpB5tkGwCIGaztypuDdBes</string>
+	<string>AIzaSyCl7cGNocyxiBmAAU0Sbmbrxt7WuLRJRzE</string>
 	<key>GCM_SENDER_ID</key>
-	<string>1062390241494</string>
+	<string>900254912246</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.juno.drivers</string>
 	<key>PROJECT_ID</key>
-	<string>junoride-driver-6647f</string>
+	<string>junoride-driver-f338b</string>
 	<key>STORAGE_BUCKET</key>
-	<string>junoride-driver-6647f.firebasestorage.app</string>
+	<string>junoride-driver-f338b.firebasestorage.app</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:1062390241494:ios:d83287e00a31404ddb1177</string>
+	<string>1:900254912246:ios:fca1307134fc19d528a6d7</string>
 </dict>
 </plist>

@@ -1,37 +1,37 @@
 {
   "project_info": {
-    "project_number": "1062390241494",
-    "project_id": "junoride-driver-6647f",
-    "storage_bucket": "junoride-driver-6647f.firebasestorage.app"
+    "project_number": "900254912246",
+    "project_id": "junoride-driver-f338b",
+    "storage_bucket": "junoride-driver-f338b.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1062390241494:android:79766fe159dd8e12db1177",
+        "mobilesdk_app_id": "1:900254912246:android:4cba6049f1aa83c028a6d7",
         "android_client_info": {
           "package_name": "com.junoRide.driver"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1062390241494-88cc8mm8bpi8acs7l0d9rqtft024aoo3.apps.googleusercontent.com",
+          "client_id": "900254912246-jm01vo4727chhgna2ds4k3t6s2mts91g.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDdgkQqhoI1vN920rpKTU3QVh7MKBizJ2Y"
+          "current_key": "AIzaSyA6Z84pVUqV54Az_UIh15a8XCBzewWtYas"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1062390241494-88cc8mm8bpi8acs7l0d9rqtft024aoo3.apps.googleusercontent.com",
+              "client_id": "900254912246-jm01vo4727chhgna2ds4k3t6s2mts91g.apps.googleusercontent.com",
               "client_type": 3
             },
             {
-              "client_id": "1062390241494-fnb58vs5vgkvso74rv21dsfmfbhe6ce7.apps.googleusercontent.com",
+              "client_id": "900254912246-7pkbcjs8jqpn9ff9tssi8egqot8s0nt6.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
                 "bundle_id": "com.juno.drivers"

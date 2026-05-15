@@ -42,33 +42,11 @@
 				<string>$(PROJECT_TWITTER_ID)</string>
 			</array>
 		</dict>
-		<dict>
-			<key>CFBundleTypeRole</key>
-			<string>Editor</string>
-			<key>CFBundleURLName</key>
-			<string>fb$(PROJECT_FACEBOOK_ID)</string>
-			<key>CFBundleURLSchemes</key>
-			<array>
-				<string>fb$(PROJECT_FACEBOOK_ID)</string>
-			</array>
-		</dict>
-		<dict>
-			<key>CFBundleTypeRole</key>
-			<string>Editor</string>
-			<key>CFBundleURLName</key>
-			<string></string>
-			<key>CFBundleURLSchemes</key>
-			<array/>
-		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>CodePushDeploymentKey</key>
 	<string>$(CODE_PUSH_KEY)</string>
-	<key>FacebookAppID</key>
-	<string>$(PROJECT_FACEBOOK_ID)</string>
-	<key>FacebookDisplayName</key>
-	<string>$(PROJECT_APP_NAME)</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>twitter</string>

@@ -4,6 +4,7 @@ import React, { useCallback, useEffect, useState } from 'react';
 import {
   FlatList,
   Image,
+  Platform,
   StyleSheet,
   TouchableOpacity,
   View,
@@ -14,7 +15,7 @@ import {
   Linking,
   ActivityIndicator,
 } from 'react-native';
-import MapView, { PROVIDER_GOOGLE } from 'react-native-maps';
+import MapView, { PROVIDER_GOOGLE, Marker } from 'react-native-maps';
 import Modal from 'react-native-modal';
 import { useSelector } from 'react-redux';
 import imagePath from '../constants/imagePath';
@@ -140,14 +141,14 @@ const NotificationModal = () => {
           initialRegion={region}
           //   customMapStyle={mapStyle}
           onRegionChangeComplete={_onRegionChange}>
-          <MapView.Marker
+          <Marker
             tracksViewChanges={false}
             key={data?.id}
             image={imagePath.pinRed}
             coordinate={{
               latitude: Number(data?.lat),
               longitude: Number(data?.long),
-            }}></MapView.Marker>
+            }} />
         </MapView>
       );
     }
@@ -284,8 +285,7 @@ const NotificationModal = () => {
 
 
   const _sendRequestToUser = () => {
-    console.log(baseFare.length, !dropLocation?.formatted_address, 'baseFare');
-    if (baseFare.length == 0 || !dropLocation?.formatted_address) {
+    if (!baseFare || baseFare.length == 0 || !dropLocation?.formatted_address) {
       alert('Please enter all Details for submit request');
       return;
     }

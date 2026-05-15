@@ -7,9 +7,10 @@ import ReactAppDependencyProvider
 import React_RCTAppDelegate
 import SafariServices
 import UIKit
+import UserNotifications
 
 @main
-class AppDelegate: UIResponder, UIApplicationDelegate, MessagingDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, MessagingDelegate, UNUserNotificationCenterDelegate {
     var window: UIWindow?
 
     var reactNativeDelegate: ReactNativeDelegate?
@@ -22,6 +23,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate, MessagingDelegate {
         // Configure Firebase
         FirebaseApp.configure()
         Messaging.messaging().delegate = self
+
+        // Required for notifee and foreground notification display
+        UNUserNotificationCenter.current().delegate = self
 
         // Configure Google Maps/Places
         if let googlePlacesKey = Bundle.main.object(
@@ -47,6 +51,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate, MessagingDelegate {
         )
 
         return true
+    }
+
+    // Allow notifee/Firebase notifications to display when app is in the foreground
+    func userNotificationCenter(
+        _ center: UNUserNotificationCenter,
+        willPresent notification: UNNotification,
+        withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void
+    ) {
+        completionHandler([.badge, .sound, .banner, .list])
+    }
+
+    // Required by UNUserNotificationCenterDelegate — lets notifee handle the tap event
+    func userNotificationCenter(
+        _ center: UNUserNotificationCenter,
+        didReceive response: UNNotificationResponse,
+        withCompletionHandler completionHandler: @escaping () -> Void
+    ) {
+        completionHandler()
     }
 
     func application(

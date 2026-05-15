@@ -1544,8 +1544,57 @@ PODS:
     - GoogleMaps (~> 3.5.0)
     - GooglePlaces (~> 3.5.0)
     - React
-  - react-native-maps (1.14.0):
+  - react-native-maps (1.27.2):
+    - react-native-maps/Maps (= 1.27.2)
+  - react-native-maps/Generated (1.27.2):
+    - DoubleConversion
+    - glog
+    - hermes-engine
+    - RCT-Folly (= 2024.11.18.00)
+    - RCTRequired
+    - RCTTypeSafety
     - React-Core
+    - React-debug
+    - React-Fabric
+    - React-featureflags
+    - React-graphics
+    - React-hermes
+    - React-ImageManager
+    - React-jsi
+    - React-NativeModulesApple
+    - React-RCTFabric
+    - React-renderercss
+    - React-rendererdebug
+    - React-utils
+    - ReactCodegen
+    - ReactCommon/turbomodule/bridging
+    - ReactCommon/turbomodule/core
+    - Yoga
+  - react-native-maps/Maps (1.27.2):
+    - DoubleConversion
+    - glog
+    - hermes-engine
+    - RCT-Folly (= 2024.11.18.00)
+    - RCTRequired
+    - RCTTypeSafety
+    - React-Core
+    - React-debug
+    - React-Fabric
+    - React-featureflags
+    - React-graphics
+    - React-hermes
+    - React-ImageManager
+    - React-jsi
+    - react-native-maps/Generated
+    - React-NativeModulesApple
+    - React-RCTFabric
+    - React-renderercss
+    - React-rendererdebug
+    - React-utils
+    - ReactCodegen
+    - ReactCommon/turbomodule/bridging
+    - ReactCommon/turbomodule/core
+    - Yoga
   - react-native-netinfo (11.5.2):
     - DoubleConversion
     - glog
@@ -3083,7 +3132,7 @@ SPEC CHECKSUMS:
   react-native-geolocation-service: 32b2c2a3b91e70ce2a8d0c684801aaeb0a07e0ec
   react-native-get-random-values: d16467cf726c618e9c7a8c3c39c31faa2244bbba
   react-native-google-places: 21f3263ad3c8c7d58650ecea1df32cb933d7d91c
-  react-native-maps: deb2adbdf309b622f15055b72b8742054929c740
+  react-native-maps: 0f995bb9bf847d56520ab5a8fec92e72a5caab7e
   react-native-netinfo: 916cc3430d8d84e961009bf8c2b029dbf3267c58
   react-native-otp-verify: b8f402aceafdad77eba70620209c616f242ff0f1
   react-native-razorpay: 376ba84b614ef8a22b5701df4ffee10f4c116d14
